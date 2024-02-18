@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>车奶研究室</title>
+        <link>https://carmilk.moe/</link>
+        <description>Recent content on 车奶研究室</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>车奶研究室</copyright>
+        <lastBuildDate>Sun, 18 Feb 2024 00:20:44 +0800</lastBuildDate><atom:link href="https://carmilk.moe/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Markdown语法写作尝试</title>
+        <link>https://carmilk.moe/p/test-markdown/</link>
+        <pubDate>Sun, 18 Feb 2024 00:20:44 +0800</pubDate>
+        
+        <guid>https://carmilk.moe/p/test-markdown/</guid>
+        <description>&lt;img src="https://carmilk.moe/p/test-markdown/halfsky.jpg" alt="Featured image of post Markdown语法写作尝试" /&gt;&lt;h1 id=&#34;markdown语法写作尝试&#34;&gt;Markdown语法写作尝试&lt;/h1&gt;
+&lt;p&gt;这是第一段。&lt;/p&gt;
+&lt;p&gt;这是第二段。（空白行）&lt;/p&gt;
+&lt;p&gt;这是第一行。&lt;br&gt;
+这是第二行。（上一行行尾加&lt;code&gt;&amp;lt;br&amp;gt;&lt;/code&gt;）&lt;/p&gt;
+&lt;p&gt;斜体尝试：&lt;br&gt;
+两侧各加一个星号&lt;code&gt;*&lt;/code&gt;之后会 &lt;em&gt;变斜&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;粗体尝试：&lt;br&gt;
+两侧各加两个星号&lt;code&gt;**&lt;/code&gt;之后会 &lt;strong&gt;变粗&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;同时斜体和粗体：&lt;br&gt;
+&lt;em&gt;&lt;strong&gt;两侧各加三个星号&lt;code&gt;***&lt;/code&gt;。&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;删除线：&lt;br&gt;
+~~ 两侧各加两个英文波浪号&lt;code&gt;~&lt;/code&gt;。~~&lt;/p&gt;
+&lt;h2 id=&#34;引用br&#34;&gt;引用：&lt;br&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在前面加一个大于号“&amp;gt;”，有多个段落则继续用前面的空白行方法。&lt;br&gt;分行也可以继续br&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;想要像这样子嵌套引用，则在要嵌套的段落前面加两个大于号即&lt;code&gt;&amp;gt;&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;还挺简单的&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;列表br&#34;&gt;列表：&lt;br&gt;&lt;/h2&gt;
+&lt;p&gt;有序列表：&lt;br&gt;数字接英文句点，空一格即可。只能从1开始，无论你写111111还是114514，出来都会是123456&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;beatmania IIDX&lt;/li&gt;
+&lt;li&gt;SOUND VOLTEX&lt;/li&gt;
+&lt;li&gt;别开生面的自行车大战&lt;/li&gt;
+&lt;li&gt;Yuta lmao&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;无序列表：&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;这就叫无序列表&lt;/li&gt;
+&lt;li&gt;段落前面加一个破折号“-”并空格即可&lt;/li&gt;
+&lt;li&gt;牛子。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在列表中嵌套其它语法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;这是第一段。&lt;/p&gt;
+&lt;p&gt;这是第二段。第二段是在第一个序号里的，在第一段后用了空白行语法。区别是，在序号中嵌套时，需要在第二段的段落前加一个制表符（tab），或者四个空格。其它语法也是这样。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;嵌套引用：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原神深渊，牢大鸡块&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;嵌套列表：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;OK&lt;/li&gt;
+&lt;li&gt;也可以在有序里面嵌无序&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;代码br&#34;&gt;代码：&lt;br&gt;&lt;/h2&gt;
+&lt;p&gt;将单词变为代码，在两侧加上单反引号&lt;code&gt;like this&lt;/code&gt;，输入&lt;code&gt;中文&lt;/code&gt;也可以。&lt;br&gt;
+如果代码中已经有单反引号，&lt;code&gt;用双 `反引号` 就可以&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;分割线&#34;&gt;分割线：&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;分割线单独一行，前后各留一行空白行。&lt;/p&gt;
+&lt;h2 id=&#34;超链接br&#34;&gt;超链接：&lt;br&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1GJ411x7h7&#34;  title=&#34;鼠标悬停显示的文字&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;英文中括号里打超链接名称，后面的英文括号里打url&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;网址和邮箱地址（直接&amp;lt;网址&amp;gt;就好）：
+&lt;a class=&#34;link&#34; href=&#34;https://markdown.com.cn/basic-syntax/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://markdown.com.cn/basic-syntax/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;超链接也可以用两个星号 &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1GJ411x7h7&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;加粗&lt;/a&gt;&lt;/strong&gt; ，也可以用一个星号 &lt;em&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1GJ411x7h7&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;变斜&lt;/a&gt;&lt;/em&gt; ，和前面一样。&lt;br&gt;
+若将链接表示为代码，则可以在方括号中打上单反引号。&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1GJ411x7h7&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;code&gt;则不呢热爆挖鼻&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;引用链接br&#34;&gt;引用链接：&lt;br&gt;&lt;/h2&gt;
+&lt;p&gt;我想引用&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1GJ411x7h7&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;这个网站&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;如果不想让url带上超链接，在两侧加上单反引号&lt;code&gt;`&lt;/code&gt;即可（其实就是把url变成代码）。&lt;br&gt;
+&lt;code&gt;https://www.bilibili.com/video/BV1GJ411x7h7&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;引用图片br&#34;&gt;引用图片：&lt;br&gt;&lt;/h2&gt;
+&lt;p&gt;用感叹号（&lt;code&gt;!&lt;/code&gt;）。&lt;br&gt;
+&lt;img src=&#34;https://carmilk.moe/p/test-markdown/halfsky.jpg&#34;
+	width=&#34;1920&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;https://carmilk.moe/p/test-markdown/halfsky_hu70fc5759de8694916d83defd7551c700_272816_480x0_resize_q75_box.jpg 480w, https://carmilk.moe/p/test-markdown/halfsky_hu70fc5759de8694916d83defd7551c700_272816_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;这是图片&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;给图片添加链接：把整体语法用中括号括起来，后面再加个括号写链接。
+&lt;a class=&#34;link&#34; href=&#34;https://space.bilibili.com/108066847&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img src=&#34;https://carmilk.moe/p/test-markdown/landepenpig.gif&#34;
+	width=&#34;228&#34;
+	height=&#34;228&#34;
+	srcset=&#34;https://carmilk.moe/p/test-markdown/landepenpig_hu5a9ebf8d73ba347c815ef339b40e8f78_452994_480x0_resize_box_1.gif 480w, https://carmilk.moe/p/test-markdown/landepenpig_hu5a9ebf8d73ba347c815ef339b40e8f78_452994_1024x0_resize_box_1.gif 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;这是群友&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;转义字符br&#34;&gt;转义字符：&lt;br&gt;&lt;/h2&gt;
+&lt;p&gt;前面加反斜杠&lt;code&gt;\&lt;/code&gt;就能显示出来
+&amp;lt;br&amp;gt; &lt;br&gt;
+&amp;gt; &lt;br&gt;
+&amp;gt; &lt;br&gt;
+&amp;gt; &lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;表格br&#34;&gt;表格：&lt;br&gt;&lt;/h2&gt;
+&lt;p&gt;用管道符号&lt;code&gt;|&lt;/code&gt;和三个或多个连字符（&lt;code&gt;---&lt;/code&gt;）来构建标题。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;名称&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;原产国&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;瘦肉率&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;产崽数&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;饲料利用率&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;杜洛克猪&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;美国&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;gt;62%&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;9&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2.8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;长白猪&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;丹麦&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;71.7%&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;12-14&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2.68-3.38&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;这样编辑很麻烦，可以试试&lt;a class=&#34;link&#34; href=&#34;https://www.tablesgenerator.com/markdown_tables&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Markdown Tables Generator&lt;/a&gt;，用图形化界面生成表格，然后将生成的Markdown代码粘贴进文本中。&lt;/p&gt;
+&lt;p&gt;脚注&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;：&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;任务列表br&#34;&gt;任务列表：&lt;br&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; ff&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; dd&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; gg&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;使用emojibr&#34;&gt;使用emoji：&lt;br&gt;&lt;/h2&gt;
+&lt;p&gt;😆&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;这是脚注1&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
