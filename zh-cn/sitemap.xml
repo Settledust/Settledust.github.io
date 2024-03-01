@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://carmilk.moe/categories/</loc>
-    <lastmod>2024-02-18T00:20:44+08:00</lastmod>
+    <lastmod>2024-02-28T18:28:32+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,20 +15,11 @@
                 href="https://carmilk.moe/categories/"
                 />
   </url><url>
-    <loc>https://carmilk.moe/p/test-markdown/</loc>
-    <lastmod>2024-02-18T00:20:44+08:00</lastmod>
-  </url><url>
     <loc>https://carmilk.moe/post/</loc>
-    <lastmod>2024-02-18T00:20:44+08:00</lastmod>
-  </url><url>
-    <loc>https://carmilk.moe/categories/test/</loc>
-    <lastmod>2024-02-18T00:20:44+08:00</lastmod>
-  </url><url>
-    <loc>https://carmilk.moe/categories/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2024-02-18T00:20:44+08:00</lastmod>
+    <lastmod>2024-02-28T18:28:32+08:00</lastmod>
   </url><url>
     <loc>https://carmilk.moe/</loc>
-    <lastmod>2024-02-18T00:20:44+08:00</lastmod>
+    <lastmod>2024-02-28T18:28:32+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -39,6 +30,24 @@
                 hreflang="zh-cn"
                 href="https://carmilk.moe/"
                 />
+  </url><url>
+    <loc>https://carmilk.moe/categories/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2024-02-28T18:28:32+08:00</lastmod>
+  </url><url>
+    <loc>https://carmilk.moe/p/maimai/</loc>
+    <lastmod>2024-02-28T18:28:32+08:00</lastmod>
+  </url><url>
+    <loc>https://carmilk.moe/categories/%E6%B8%B8%E6%88%8F/</loc>
+    <lastmod>2024-02-28T18:28:32+08:00</lastmod>
+  </url><url>
+    <loc>https://carmilk.moe/p/test-markdown/</loc>
+    <lastmod>2024-02-18T00:20:44+08:00</lastmod>
+  </url><url>
+    <loc>https://carmilk.moe/categories/test/</loc>
+    <lastmod>2024-02-18T00:20:44+08:00</lastmod>
+  </url><url>
+    <loc>https://carmilk.moe/categories/%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2024-02-18T00:20:44+08:00</lastmod>
   </url><url>
     <loc>https://carmilk.moe/tags/</loc>
     <xhtml:link

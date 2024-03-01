@@ -1,0 +1,2810 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='一篇系统的、面向新手的教程。'>
+<title>舞萌（maimai）简明初级教程</title>
+
+<link rel='canonical' href='https://carmilk.moe/p/maimai/'>
+
+<link rel="stylesheet" href="/scss/style.min.abbd69b2908fdfcd5179898beaafd374514a86538d81639ddd2c58c06ae54e40.css"><meta property='og:title' content='舞萌（maimai）简明初级教程'>
+<meta property='og:description' content='一篇系统的、面向新手的教程。'>
+<meta property='og:url' content='https://carmilk.moe/p/maimai/'>
+<meta property='og:site_name' content='车奶研究室'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-02-28T18:28:32&#43;08:00'/><meta property='article:modified_time' content='2024-02-28T18:28:32&#43;08:00'/><meta property='og:image' content='https://carmilk.moe/p/maimai/cover.jpeg' />
+<meta name="twitter:title" content="舞萌（maimai）简明初级教程">
+<meta name="twitter:description" content="一篇系统的、面向新手的教程。"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://carmilk.moe/p/maimai/cover.jpeg' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu9a2ca710d3153667a2b1605d0da17d67_2350605_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">车奶研究室</a></h1>
+            <h2 class="site-description">Dr. Carmilk&#39;s Freak Report</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/settledust'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://carmilk.moe/index.xml'
+                        target="_blank"
+                        title="RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="https://carmilk.moe/en/" >English</option>
+                        
+                            <option value="https://carmilk.moe/" selected>中文</option>
+                        
+                    </select>
+                </li>
+            
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>暗色模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#前言"><strong>前言</strong></a></li>
+    <li><a href="#准备"><strong>准备</strong></a>
+      <ol>
+        <li><a href="#前置知识"><strong>前置知识</strong></a>
+          <ol>
+            <li><a href="#bpm">BPM</a></li>
+            <li><a href="#四分音符">四分音符</a></li>
+          </ol>
+        </li>
+        <li><a href="#练习注意"><strong>练习注意</strong></a>
+          <ol>
+            <li><a href="#站位">站位</a></li>
+            <li><a href="#手势">手势</a></li>
+            <li><a href="#下落速度">下落速度</a></li>
+            <li><a href="#分工">分工</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#星星篇"><strong>星星篇</strong></a>
+      <ol>
+        <li><a href="#基本原理"><strong>基本原理</strong></a></li>
+        <li><a href="#基础配置及处理手法"><strong>基础配置及处理手法</strong></a>
+          <ol>
+            <li><a href="#顿一拍然后一下子划完slide">顿一拍，然后一下子划完slide</a></li>
+            <li><a href="#在slide-的启动拍其他键位出tap">在slide 的启动拍，其他键位出tap</a></li>
+            <li><a href="#星星头和hold双押且slide经历时间和hold相同">星星头和hold双押，且slide经历时间和hold相同</a></li>
+            <li><a href="#连续slide">连续slide</a></li>
+            <li><a href="#在星星头的停顿时间中点同键位出tap拍拍划">在星星头的停顿时间中点，同键位出tap（拍拍划）</a></li>
+          </ol>
+        </li>
+        <li><a href="#进阶配置及处理手法"><strong>进阶配置及处理手法</strong></a>
+          <ol>
+            <li><a href="#一笔画">一笔画</a></li>
+            <li><a href="#错位入门">错位入门</a></li>
+            <li><a href="#等速穿心slide风车星星">等速穿心slide（风车星星）</a></li>
+            <li><a href="#换手初步">换手初步</a></li>
+          </ol>
+        </li>
+        <li><a href="#延伸阅读"><strong>延伸阅读</strong></a>
+          <ol>
+            <li><a href="#a区免判">A区免判</a></li>
+            <li><a href="#跳区">跳区</a></li>
+            <li><a href="#超慢速星星的判定时机">超慢速星星的判定时机</a></li>
+            <li><a href="#延迟星星与内置bpm">延迟星星与内置BPM</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#键位篇"><strong>键位篇</strong></a>
+      <ol>
+        <li><a href="#基础配置"><strong>基础配置</strong></a>
+          <ol>
+            <li><a href="#键位映射能力">键位映射能力</a></li>
+            <li><a href="#身体调动交叉手">身体调动——交叉手</a></li>
+            <li><a href="#交互及其变式">交互及其变式</a></li>
+            <li><a href="#切键">切键</a></li>
+            <li><a href="#双押阵">双押阵</a></li>
+            <li><a href="#短纵">短纵</a></li>
+            <li><a href="#轴叠键">轴叠键</a></li>
+          </ol>
+        </li>
+        <li><a href="#进阶配置"><strong>进阶配置</strong></a>
+          <ol>
+            <li><a href="#单手楼梯">单手楼梯</a></li>
+            <li><a href="#长纵">长纵</a></li>
+            <li><a href="#叠键">叠键</a></li>
+            <li><a href="#swing节奏跳拍">Swing节奏（跳拍）</a></li>
+            <li><a href="#扫键">扫键</a></li>
+            <li><a href="#转圈">转圈</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/maimai/">
+                <img src="/p/maimai/cover_hu0dcb31d2c5a5458b58a71f34fe8b802e_141331_800x0_resize_q75_box.jpeg"
+                        srcset="/p/maimai/cover_hu0dcb31d2c5a5458b58a71f34fe8b802e_141331_800x0_resize_q75_box.jpeg 800w, /p/maimai/cover_hu0dcb31d2c5a5458b58a71f34fe8b802e_141331_1600x0_resize_q75_box.jpeg 1600w"
+                        width="800" 
+                        height="450" 
+                        loading="lazy"
+                        alt="Featured image of post 舞萌（maimai）简明初级教程" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E6%95%99%E7%A8%8B/" >
+                教程
+            </a>
+        
+            <a href="/categories/%E6%B8%B8%E6%88%8F/" >
+                游戏
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/maimai/">舞萌（maimai）简明初级教程</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            一篇系统的、面向新手的教程。
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2024-02-28</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 30 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p><strong>作者：<a class="link" href="https://space.bilibili.com/333716678"  target="_blank" rel="noopener"
+    >车奶</a></strong></p>
+<p><strong>正文总计13000+字，阅读时间预计30分钟。</strong></p>
+<p><strong>本教程有电子PDF版本（支持目录跳转）：<a class="link" href="https://pan.baidu.com/s/1Qkg7JXo6zgu8Buj6dPs2KA?pwd=gfx8"  target="_blank" rel="noopener"
+    >百度网盘</a>、<a class="link" href="https://wwt.lanzouv.com/iiDwk0g06o4b"  target="_blank" rel="noopener"
+    >蓝奏云</a></strong></p>
+<h2 id="前言"><strong>前言</strong></h2>
+<p>随着舞萌DX在大陆的铺货，越来越多人接触到了这个形似洗衣机的街机音游，其中不乏想要享受游戏却又摸不清门道的玩家。而很多时候，经验的交接还停留在口传心授的方式。所以我想整理一篇系统的、面向新手的教程。</p>
+<p>教程第1版在2020年11月便已完成并进行了几次修订，两年过后我惊讶的发现，每时每刻依然还有不少入坑的新面孔站在机台前，充满着新鲜感。同时这两我积累的知识也更新了，发觉之前的教程还有不少可以改良的地方，于是顿感重新修订的重要性。</p>
+<p>在实际情况中，很多人都是将星星配置与纯键配置分开练习，复合谱面则用来强化巩固二者，这样确实有所裨益；因我也是将星星篇与键位篇分开单列。</p>
+<p>星星篇的配置在练习顺序上前后相扣，实验显示带新人效果较好，算我在教学方法上的一个小创新，欢迎各位参考。键位篇的配置则仅是罗列，供玩家卡关的时候自行查阅练习，没有顺序的要求。
+我未评测7级之前的谱面，7～9级主要评测了GreeN PLUS代之后的谱面，9+～12级的所有谱面基本评测完毕。推荐谱面不代表这个配置仅有这个难度区间的这些谱面，而我综合考虑了适合练这个配置的阶段、配置在谱面中的占比、谱面中其他配置的难度、歌曲悦耳程度之后进行的筛选。</p>
+<p>由我水平有限，所以可能对谱面的构成没有更深层次的理解，若出现错误或者遗漏，还望各位批评指正。</p>
+<p>特别感谢教程编写过程中帮我进行瓶颈调研、课题反馈、文章校对的各位朋友，尤其感谢<a class="link" href="https://space.bilibili.com/8611335"  target="_blank" rel="noopener"
+    >SniperPigeon</a>的审稿意见以及对“延伸阅读”一章的撰写。</p>
+<hr>
+<center><strong>更新日志</strong></center>
+<ul>
+<li>
+<p><strong>2020-11-24 初版完成于哈尔滨 暴雪初停</strong></p>
+</li>
+<li>
+<p><strong>2020-12-2 改动了一些歌曲，加入手元链接</strong></p>
+</li>
+<li>
+<p><strong>2021-6-13 将歌曲分类和等级更新至与国服舞萌DX2021一致，优化了歌曲列表的美工</strong></p>
+</li>
+<li>
+<p><strong>2021-7-18 更新手元链接</strong></p>
+</li>
+<li>
+<p><strong>2022-11-16 大幅修订，修改、删减、增添了许多内容</strong></p>
+</li>
+<li>
+<p><strong>2024-2-28 将教程从bilibili专栏迁移至车奶研究室</strong></p>
+</li>
+</ul>
+<hr>
+<h2 id="准备"><strong>准备</strong></h2>
+<h3 id="前置知识"><strong>前置知识</strong></h3>
+<h4 id="bpm">BPM</h4>
+<p>Beat Per Minute，即每分钟的节拍数，用来表征一段音乐的快慢。</p>
+<h4 id="四分音符">四分音符</h4>
+<p>乐理中为了方便记谱，设定了一系列具有相对时间关系的音符。四分音符时间为全音符的四分之一。顾名思义，八分音符时间是四分音符的一半，二分音符则是四分音符的两倍。若音符带了一个“附点”，则表示时间乘1.5倍。<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><img src="/p/maimai/note.png"
+	width="1659"
+	height="418"
+	srcset="/p/maimai/note_hudecec00a8d7891fcea15458d0aa160f9_19365_480x0_resize_box_3.png 480w, /p/maimai/note_hudecec00a8d7891fcea15458d0aa160f9_19365_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="五线谱记谱法中的五种音符记号"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="396"
+		data-flex-basis="952px"
+	
+></p>
+<p>（3）一拍：60秒除以BPM，即为这首曲子一拍的时间。作曲时，四分音符是最常被设定为一拍的音符。maimai大部分曲子开始之前会等间隔地响四下提示音，小部分曲目由于本身拍号不同，提示音数量也不同（如由削除作曲的著名上位曲7thSense就是一首7/4拍的歌，提示音将响7次），两个提示音间隔的时间即为这首曲子一拍的时间。</p>
+<h3 id="练习注意"><strong>练习注意</strong></h3>
+<h4 id="站位">站位</h4>
+<p>如果站的太靠前，你获得不了良好的视野；太靠后，手打键和划屏不能很好发力。建议你的站位能使你两只手搭在最上面两个键的时候，手肘略大于90度。</p>
+<h4 id="手势">手势</h4>
+<p>个人建议除拇指外的三个手指并拢，用前两指节打键，不要太弯曲（无论朝哪个方向）。划slide时，手与屏幕的接触面积不要太小（比如只用指尖），也不要太大（比如整个手掌），建议用手掌前端。划slide时，主要调动你的小臂，大臂只是用做辅助。</p>
+<h4 id="下落速度">下落速度</h4>
+<p>速度慢了键位密度会变大，大脑同时要处理的信息变多，容易让你觉得杂乱无章；速度快了又容易反应不过来。调速就是调一个让你既不觉得杂乱无章、又反应的过来的速度。建议用当前水平所在的难度除2，在上下浮动1的范围内调整，最低建议别低于4.5。如9级在4.5～5.5调整，13级在5.5～7.5调整。</p>
+<h4 id="分工">分工</h4>
+<p>前期大部分乐谱可以用右手打1234号键（右半边），左手打5678号键（左半边）。后期也经常用到这种思路，这种思路叫“分页处理”。</p>
+<hr>
+<h2 id="星星篇"><strong>星星篇</strong></h2>
+<h3 id="基本原理"><strong>基本原理</strong></h3>
+<ol>
+<li>
+<p>星星音符分为星星头（tap）和 划条（slide）两部分。星星头和其他形状的tap的判定形式没有区别，都是等它到达判定线时击打即可。</p>
+</li>
+<li>
+<p><span id="基本原理2"></span>星星头准备到达判定线时，屏幕上会显示从星星头的位置引出的划条（下称slide），随后星星头会沿着slide运动，引导你跟着它划slide。<font color="red"><b>拍了星星头之后，并不是立刻开始划slide，而是停顿一下再划。停顿的时间为一拍。</b></font>时间轴上开始划slide的时刻，称为“启动拍”。</p>
+</li>
+<li>
+<p>slide经历的时间可以由谱师自己制定，常见有1个8分音符、1个4分音符、3个8分音符、1个2分音符、1个全音符等等，谱师会根据音乐的行进制定每一条slide经历的时间，一般来说slide的速度会贴合歌曲的情绪，在激烈段较快，在平和段、歌曲开头和结尾偏慢。</p>
+</li>
+<li>
+<p>如果你在设置中打开了星星头旋转，正在飞向判定线的星星头的旋转角速度就指示着slide的快慢。星星头旋转越快，slide经历的时间越短，反之越长。</p>
+</li>
+<li>
+<p>slide被划了之后会消失。只有当前面的部分被划掉，后面才能被划（跳区等进阶的判定机制暂时无需深入了解），如下图所示。</p>
+</li>
+</ol>
+<figure>
+  <img src="1.png" style="width:50%" alt="谱面示意">
+  <figcaption>谱面示意</figcaption>
+</figure>
+<ol start="6">
+<li>slide被划之后的消失并不是连续的，而是一段一段的。原因在于maimai的触屏判定是基于屏幕下方不连续分布的传感器，下方有传感器的屏幕区域称为感应区。舞萌DX感应区如下图所示。</li>
+</ol>
+<figure>
+  <img src="ganyingqu.png" style="width:50%" alt="舞萌DX感应区">
+  <figcaption>舞萌DX感应区</figcaption>
+</figure>
+<p>举个例子，如下图所示，左图你只要触碰了A1、B1感应区内的任意的两个点，触发了这两个感应区，slide就会直接变成右边这样：</p>
+<p><img src="/p/maimai/2.png"
+	width="1280"
+	height="636"
+	srcset="/p/maimai/2_hu2c9502bfc10d8cccb97f54d8e1a9bcec_622430_480x0_resize_box_3.png 480w, /p/maimai/2_hu2c9502bfc10d8cccb97f54d8e1a9bcec_622430_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="slide不连续判定示意"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="201"
+		data-flex-basis="483px"
+	
+></p>
+<ol start="7">
+<li>
+<p>slide的判定结果与过程无关。想得到完美判定，只需在<font color="red"><b>星星头进入slide的最后一个判定区时</b></font>把slide划完。这就可以解释为什么很多人在处理慢速slide或者贴边一圈的slide时，会先把前面的部分划掉，等星星头到了之后再触摸slide最后剩余的部分。但对于这种星星，新手前期并不需要记判定区的位置，因为只要不是特别慢的星星，手跟着星星头划就没错。</p>
+</li>
+<li>
+<p>有种扇形的slide会从起点放出三个星星头，这个扇形的辐射区域形似Wi-Fi，所以被称为“Wi-Fi星星”。Wi-Fi星星只需要经过中央的C区与终点的三个感应区，终点的三组判定区中每组都摸到一个就算判定成功，即下图中OR连接的三组判定区<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>。此类星星跟随星星头速度，张大手擦拭覆盖区域即可。</p>
+</li>
+</ol>
+<figure>
+  <img src="wifi.png" style="width:50%" alt="Wi-Fi星星判定区">
+  <figcaption>Wi-Fi星星判定区</figcaption>
+</figure>
+<hr>
+<h3 id="基础配置及处理手法"><strong>基础配置及处理手法</strong></h3>
+<h4 id="顿一拍然后一下子划完slide">顿一拍，然后一下子划完slide</h4>
+<p>基本原理2<a href='#基本原理2'><sup><font color="#00FFFF">页内跳转</font></sup></a>是非常重要的，会伴随你整个舞萌生涯。由原理2和前置知识可知，一首歌BPM越高，则拍完星星头停顿的时间越短。</p>
+<p>事实上，BPM高或低（停顿时间短或长）的曲子都得练，但是根据我对很多新手的实际观察，新手在打星星不够快的歌时，拍完星星头往往会直接开始划slide，无论打多少遍都无法练成有意识的停顿一拍再划。我回忆起我从7级入门到打13级的过程中所亲身经历的、观察的人和事，在此武断的下个结论：低等级的歌写慢速星星会对路人十分友好，却绝对不利于硬核向玩家的晋升。</p>
+<p>那新手前期应该打什么样的歌呢？</p>
+<p>设想，如果一首曲子BPM=150，谱师把曲子里大部分slide经历的时间制定为一个8分音符，则计算可知，应当拍了星星头之后停顿0.4秒（一拍）、再用0.2秒的时间划完slide，而在maimai这么大的屏幕上，0.2秒划完一条slide是要用比较快的速度的；所以打这首歌时，大部分星星音符都可以用<font color="red"><b>“拍完星星头顿一拍，然后一下子划完”</b></font>来处理。这样的曲子，是最利于新手练习停顿、体会到slide的节奏感的。</p>
+<p>同时，BPM过高的歌也不适合，因为这样星星头停顿的时间就非常短了，入门不仅容易反应不过来，还容易忽视停顿的一拍,极其不利于练习。</p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:15px;
+  overflow:hidden;padding:1px 1px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:15px;
+  font-weight:normal;overflow:hidden;padding:1px 1px;word-break:normal;}
+.tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:middle}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-nrix{border-color:inherit;text-align:center;vertical-align:middle}
+img {
+ /*设置图片垂直居中*/
+  vertical-align:middle;
+}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}
+</style>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">配置3.2.1推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">niconico＆VOCALOID</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="g_libiao.png"></td>
+    <td class="tg-9wq8" rowspan="2">裏表ラバーズ</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">ADV 7</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="dx.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="g_yinv.png"></td>
+    <td class="tg-9wq8" rowspan="2">乙女解剖</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 8+</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="g_tokyo.png"></td>
+    <td class="tg-9wq8" rowspan="2">東京リアルワールド</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 8</td>
+  </tr>
+ <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="g_tianhuo.png"></td>
+    <td class="tg-9wq8" rowspan="2">天火明命</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">ADV 8+</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<h4 id="在slide-的启动拍其他键位出tap">在slide 的启动拍，其他键位出tap</h4>
+<p>基础谱面里极其常见的配置，这种配置中谱师也常常把slide设定的较快。有了上一个配置的基础，这就很简单了，处理方法是：如下图所示，直接在<font color="red"><b>拍tap的同时，把slide一下子划完</b></font>。</p>
+<p><img src="/p/maimai/maimai_1.png"
+	width="1280"
+	height="607"
+	srcset="/p/maimai/maimai_1_hu8d5377673090c7f32d07cbdd4088444e_883851_480x0_resize_box_3.png 480w, /p/maimai/maimai_1_hu8d5377673090c7f32d07cbdd4088444e_883851_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="配置手法示意"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="210"
+		data-flex-basis="506px"
+	
+></p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">配置3.2.2推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">niconico＆VOCALOID</td>
+    <td class="tg-9wq8" style="width:15%"><img src="dx.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="tianhu.png"></td>
+    <td class="tg-9wq8" rowspan="2">アマツキツネ</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 9</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="seyana.png"></td>
+    <td class="tg-9wq8" rowspan="2">Seyana.～何でも言うことを聞いてくれるアカネチャン～</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 9</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">其他游戏</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="infantoon.png"></td>
+    <td class="tg-9wq8" rowspan="2">Infantoon Fantasy</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 9+</td>
+  </tr>
+ <tr>
+    <td class="tg-9wq8" rowspan="2">东方Project</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="ibuki.png"></td>
+    <td class="tg-9wq8" rowspan="2">Club Ibuki in Break All</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<h4 id="星星头和hold双押且slide经历时间和hold相同">星星头和hold双押，且slide经历时间和hold相同</h4>
+<p>这种情况经常是hold结束时，slide开始划，并且经历时间较短。大部分歌曲都可这样处理：如下图所示，<font color="red"><b>在hold结束时，松手，同时一下子划完slide</b></font>。即将“hold松手”与“一下子划完slide”视为一种双押行为。</p>
+<p><img src="/p/maimai/maimai_2.png"
+	width="1280"
+	height="601"
+	srcset="/p/maimai/maimai_2_hub5c68aff061a7215f73db81da2802526_763224_480x0_resize_box_3.png 480w, /p/maimai/maimai_2_hub5c68aff061a7215f73db81da2802526_763224_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="配置手法示意"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="212"
+		data-flex-basis="511px"
+	
+></p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">配置3.2.3推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:15%">舞萌</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="yubikiri.png"></td>
+    <td class="tg-9wq8" rowspan="2">ユビキリ</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10+</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+<h4 id="连续slide">连续slide</h4>
+<p>这个配置的基础是配置3.2.2<a href='#在slide-的启动拍其他键位出tap'><sup><font color="#00FFFF">页内跳转</font></sup></a>。理解之后，“连续slide”指安插在第一条slide启动拍的tap，是第二条slide的星星头；在第二条slide启动拍，又安插第三个slide的星星头，如此嵌套下去。处理方法是：如下图所示，<font color="red"><b>拍打下一个星星头时，把上一个slide一下子划完，然后重复进行这个操作。不难发现，这种配置的组成是，配置3.2.2、配置3.2.2、配置3.2.2…</b></font></p>
+<p>在前期的常规谱中，有两种常见连续slide型：</p>
+<blockquote>
+<ol>
+<li>
+<p>两条slide从相隔较远的键位引出，夹角较大；</p>
+</li>
+<li>
+<p>两条slide从相邻键位引出，夹角较小。</p>
+</li>
+</ol>
+</blockquote>
+<p>二者同为连续slide，难度却不相同。前者slide轨迹和判定图案不容易堆积到一起，读谱难度较低，且对划slide精度要求不高；后者slide的轨迹和判定图案容易堆积到一起导致读谱困难，且容易导致连锁反应，同时对划slide精度要求较高。</p>
+<p><img src="/p/maimai/maimai_3_1.png"
+	width="2230"
+	height="750"
+	srcset="/p/maimai/maimai_3_1_hu5d2de8b5b7a2b498a717e8553c46df0b_1719878_480x0_resize_box_3.png 480w, /p/maimai/maimai_3_1_hu5d2de8b5b7a2b498a717e8553c46df0b_1719878_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="配置1手法示意"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="297"
+		data-flex-basis="713px"
+	
+></p>
+<p><img src="/p/maimai/maimai_3_2.png"
+	width="2112"
+	height="698"
+	srcset="/p/maimai/maimai_3_2_huc56efdb185c0bf85199a3558ef7fbaeb_1436707_480x0_resize_box_3.png 480w, /p/maimai/maimai_3_2_huc56efdb185c0bf85199a3558ef7fbaeb_1436707_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="配置2手法示意"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="302"
+		data-flex-basis="726px"
+	
+></p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">1型连续slide推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">东方Project</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="moranying.png"></td>
+    <td class="tg-9wq8" rowspan="2">蒼空に舞え、墨染の桜</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="dx.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="xingguojun.png"></td>
+    <td class="tg-9wq8" rowspan="2">星めぐり、果ての君へ。</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10+</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="hibana.png"></td>
+    <td class="tg-9wq8" rowspan="2">ヒバナ</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 11</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">2型连续slide推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">舞萌</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="limitbreak.png"></td>
+    <td class="tg-9wq8" rowspan="2">Limit Break</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">音击/中二节奏</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="maoji.png"></td>
+    <td class="tg-9wq8" rowspan="2">猫祭り</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10+</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="oshama.png"></td>
+    <td class="tg-9wq8" rowspan="2">Oshama Scramble！</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 11</td>
+  </tr>
+ <tr>
+    <td class="tg-9wq8" rowspan="2">东方Project</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="calamity.png"></td>
+    <td class="tg-9wq8" rowspan="2">Calamity Fortune</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 11</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<h4 id="在星星头的停顿时间中点同键位出tap拍拍划">在星星头的停顿时间中点，同键位出tap（拍拍划）</h4>
+<p>很多人第一次碰到这个配置会下意识觉得划slide顾不上tap，拍tap顾不上slide。而实际上前期碰到的这种配置基本都是tap把停顿的一拍对半分割了，星星头距离tap一个八分音符，tap距离开始划slide的时刻一个八分音符。如果你此时还没练会停顿一拍，直接起划，这种配置会令你非常头疼。</p>
+<p>处理方法可以记为：<font color="red"><b>用相等的间距拍、拍、划</b></font>。常常与连续slide联动，即在连续slide的每个星星头后接一个tap，变成一串连续的拍拍划。</p>
+<p><img src="/p/maimai/maimai_4.png"
+	width="1280"
+	height="426"
+	srcset="/p/maimai/maimai_4_hucc6a5a635570f1d00baa24a7b4053ec1_570502_480x0_resize_box_3.png 480w, /p/maimai/maimai_4_hucc6a5a635570f1d00baa24a7b4053ec1_570502_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="配置手法示意"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="300"
+		data-flex-basis="721px"
+	
+></p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">拍拍划推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">niconico＆VOCALOID</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="wangxiang.png"></td>
+    <td class="tg-9wq8" rowspan="2">妄想感傷代償連盟</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 10</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="echo.png"></td>
+    <td class="tg-9wq8" rowspan="2">ECHO</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="roki.png"></td>
+    <td class="tg-9wq8" rowspan="2">ロキ</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 11</td>
+  </tr>
+ <tr>
+    <td class="tg-9wq8" rowspan="2">东方Project</td>
+    <td class="tg-9wq8"><img src="dx.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="warning.png"></td>
+    <td class="tg-9wq8" rowspan="2">WARNING×WARNING×WARNING</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 11+</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id="进阶配置及处理手法"><strong>进阶配置及处理手法</strong></h3>
+<p>从刚入门到打11级，门槛一般是星星音符的处理；11级到12级，难点主要在各种纯键位的配置上。比如ENERGY SYNERGY MATRIX的标准红谱（11+中上位）后半部分是大位移密集双押，难点在读谱和对键位的熟悉程度，但它的星星配置其实并出不了上一节“基础配置”的范围。11+、12级练习slide的曲子同时对地力都有要求，所以在练习本节时，请同时加上对键位篇的综合练习。</p>
+<p>进阶配置，顾名思义，是基于上一节，加强、变形、组合。如果上一节基础牢固，这一节能非常快的理解一些描述。</p>
+<h4 id="一笔画">一笔画</h4>
+<p>当时间与空间上后一条slide的开头与前一条slide的结尾接上，就能变成这样的配置：星星头沿着前赴后继的slide不停顿地运动。这种配置被形象的称为“一笔画”。如果后一条slide与前一条slide方向相反、轨迹重合，叫做“往复一笔画”，与普通一笔画没有本质区别。如下图所示，左为普通一笔画，右为往复一笔画。图仅为示意，实际上一笔画可以写成各种形状。</p>
+<p><img src="/p/maimai/yibihua.png"
+	width="1280"
+	height="611"
+	srcset="/p/maimai/yibihua_hudd0f3428a368b58a9bc5f82597eb4709_210266_480x0_resize_box_3.png 480w, /p/maimai/yibihua_hudd0f3428a368b58a9bc5f82597eb4709_210266_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="一笔画与往复一笔画谱面示意"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="209"
+		data-flex-basis="502px"
+	
+></p>
+<p>一笔画配置的节奏行进，有两种常见形式：</p>
+<blockquote>
+<ol>
+<li>
+<p>slide经历时间为一个四分音符，前后两个星星头间隔为一个四分音符。</p>
+</li>
+<li>
+<p>slide经历时间为一个八分音符，前后两个星星头间隔为一个八分音符。</p>
+</li>
+</ol>
+</blockquote>
+<p>这两种一笔画，slide的划动都是连续的。下图是对这两种一笔画的时间分析，虚线代表星星头停顿的时间，蓝色箭头代表slide经历的时间，可以看到slide的划动是刚好衔接上的，在时间轴上没有停顿。</p>
+<figure>
+  <img src="yibihua_1.png" style="width:90%" alt="第一种一笔画时间分析">
+  <figcaption>第一种一笔画时间分析</figcaption>
+</figure>
+<figure>
+  <img src="yibihua_2.png" style="width:90%" alt="第二种一笔画时间分析">
+  <figcaption>第二种一笔画时间分析</figcaption>
+</figure>
+<p>下面介绍这两种节奏的一笔画的处理方法。</p>
+<p>对于（1）型一笔画，大部分时候，牢记两点即可：</p>
+<p><font color="red"><b></p>
+<ol>
+<li>
+<p>两手分工，一只手专门负责拍，一只手专门负责划，划slide的手开始划之后就一直不停。</p>
+</li>
+<li>
+<p>下一个星星头是上一条slide起划的标志。</p>
+</li>
+</ol>
+<p></b></font></p>
+<p>也即：拍第一个星星头顿一拍，拍第二个星星头时开始划第一条slide；拍第三个星星头时，要刚好划完第一条slide并刚开始划第二条slide。</p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">1型一笔画推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">niconico＆VOCALOID</td>
+    <td class="tg-9wq8" style="width:15%"><img src="dx.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="toriae.png"></td>
+    <td class="tg-9wq8" rowspan="2">とりあえずアナタがいなくなるまえに</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 11+</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="dx.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="melt.png"></td>
+    <td class="tg-9wq8" rowspan="2">メルト</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 11+</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">东方Project</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="kamigami.png"></td>
+    <td class="tg-9wq8" rowspan="2">神々の祈り</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12</td>
+  </tr>
+ <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="dandan.png"></td>
+    <td class="tg-9wq8" rowspan="2">だんだん早くなる</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">ReM 12</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">东方Project</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="tengu.png"></td>
+    <td class="tg-9wq8">天狗の落とし文 feat. ｙｔｒ</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12</td>
+    <td class="tg-9wq8">往复一笔画（开头25%）</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<p>其中《だんだん早くなる》的BPM在变化，所以四分音符的长短也在变化，但是那两点处理要诀依然适用，很有意思，非常适合练习。</p>
+<p>对于（2）型一笔画，大部分谱面都是只有两个星星音符，不像（1）型一般有多个星星音符延绵不绝。所以基本上（2）型一笔画可以<font color="red"><b>等间距的拍、拍、划、划，两个“拍”用不同的手，“划”用同一只手。集中注意力看清楚哪条slide是第一条。</b></font></p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">2型一笔画推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">舞萌</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="kotonoha.png"></td>
+    <td class="tg-9wq8" rowspan="2">言ノ葉遊戯</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="karakuri.png"></td>
+    <td class="tg-9wq8" rowspan="2">からくりピエロ</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">ReM 12</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">其他游戏</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="evergreen.png"></td>
+    <td class="tg-9wq8">EVERGREEN</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10+</td>
+    <td class="tg-9wq8">往复一笔画</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<h4 id="错位入门">错位入门</h4>
+<p>之前讲的所有星星音符，停顿的一拍里，基本不需要处理其他音符。而这停顿的一拍也即空余的一拍，空余意味着这一拍里能做很多手脚。</p>
+<p>错位，就是在这一拍内要处理其他音符：拍完星星头，slide先搁置着，处理完其他音符再回来划slide。如下图时间轴，在对星星的首尾两次处理上，意识产生了一个错位。</p>
+<p>万物皆可错位，这也是谱师玩的最秀的地方。</p>
+<p>因为是“入门”，所以这里只讲解常见配置；但本章的配置掌握之后，你的停顿意识和能力会有质的提升，对没见过的错位配置也会有分析能力。</p>
+<figure>
+  <img src="cuowei.png" style="width:90%" alt="错位定义">
+  <figcaption>错位定义</figcaption>
+</figure>
+<p>读者可能会产生一个疑问：照这个定义，拍拍划<a href='#在星星头的停顿时间中点同键位出tap拍拍划'><sup><font color="#00FFFF">页内跳转</font></sup></a>应当算错位吧？拍完星星头之后，还要再处理一个tap，然后再划slide。还真是这么回事，拍拍划这个简单的键型里，蕴含着朴素的错位思想。只不过，还“不够错位”——拍、拍、划三个动作都在同一个键位，手一直停在一个位置，不用过多的思考，从而淡化了夹在中间那个tap给人带来的困扰。</p>
+<p>你可能马上会想：“那为了困扰玩家，<font color="red"><b>要不把中间那个tap移到其他键位？</b></font>”如果你想到了这一步，恭喜你，你开始理解一些核心的东西了。</p>
+<p>拍拍划如果你认真练了，会发现谱师很喜欢把它和连续slide结合，即一串连续的拍拍划。<font color="red"><b>一串连续的拍拍划，把每一个拍拍划中间的tap移到其他键位，</b></font>就诞生了下面这个谱面：</p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">错位启蒙</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">niconico＆VOCALOID</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="inochi.png"></td>
+    <td class="tg-9wq8" rowspan="2">命ばっかり</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<p>已经知道，在slide启动拍，其他键位出tap是基础配置3.2.2<a href='#在slide-的启动拍其他键位出tap'><sup><font color="#00FFFF">页内跳转</font></sup></a>；如果在slide启动拍，从同一个键位出tap，叫<font color="red"><b>“拍划”</b></font>。拍划的打法是：手稍微抬一下，手与键连线与屏幕成钝角，拍tap时顺势把slide连带着一下划完。由于tap的判定较严，slide的判定较松，所以拍划键型里，“拍”的准度更重要，一定注意别着急导致拍快。可以打下面这首体验一下：</p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">拍划体验曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">东方Project</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="helpme.png"></td>
+    <td class="tg-9wq8" rowspan="2">Help me, ERINNNNNN!!</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<p>如果把《命ばっかり》的配置和拍划结合一下，就有了下面这个maimai里最经典的错位配置——“海底捞”配置：</p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">“海底捞”配置名称来源</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">niconico＆VOCALOID</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="umiyuri.png"></td>
+    <td class="tg-9wq8" rowspan="2">ウミユリ海底譚</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 13</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<p>极其经典的配置，晋升的一大门槛，对协调有很高要求。</p>
+<p>上文介绍了错位，简明阐述了错位配置的一些联系和变化，而这些配置随键位变化在实际手感上又会有些许区别。接下我将总结一些常见的配置和对应的练习曲。</p>
+<h5 id="拍划">拍划</h5>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">拍划推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">niconico＆VOCALOID</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="sweetmagic.png"></td>
+    <td class="tg-9wq8" rowspan="2">スイートマジック</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 11+</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="alien.png"></td>
+    <td class="tg-9wq8" rowspan="2">エイリアエイリア</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">流行&动漫</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="future.png"></td>
+    <td class="tg-9wq8" rowspan="2">Future</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">ReM 12</td>
+  </tr>
+ <tr>
+    <td class="tg-9wq8" rowspan="2">东方Project</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="money.png"></td>
+    <td class="tg-9wq8" rowspan="2">Money Money</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12+</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">换手拍划推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">niconico＆VOCALOID</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image52.png"></td>
+    <td class="tg-9wq8" rowspan="2">弱虫モンブラ</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<p>如果安排在slide启动拍的tap是下一条slide的星星头，则这种键型称为“同起点slide拍划”。处理方式是：<font color="red"><b>等间距的拍、拍划、拍划、拍划、······ </b></font>，单手或左右手交替都行。当然，有些快速星星或者低BPM谱面是可以做到拍划之前先拍超过一下的。</p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">同起点slide拍划推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">舞萌</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image53.png"></td>
+    <td class="tg-9wq8" rowspan="2">Selector</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10+</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image54.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">Tell Your World</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 11+</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image55.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">Link</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 11+</td>
+  </tr>
+ <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="hibana.png"></td>
+    <td class="tg-9wq8" rowspan="2">ヒバナ</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">ReM 12+</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<h5 id="slide的停顿时间中点有tapslide启动拍没tap">slide的停顿时间中点有tap，slide启动拍没tap</h5>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">配置推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">niconico＆VOCALOID</td>
+    <td class="tg-9wq8" style="width:15%"><img src="dx.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image56.png"></td>
+    <td class="tg-9wq8" rowspan="2">quiet room</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="inochi.png"></td>
+    <td class="tg-9wq8" rowspan="2">命ばっかり</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<h5 id="slide的停顿时间中点有tapslide启动拍有不同键位tap非双押">slide的停顿时间中点有tap，slide启动拍有不同键位tap（非双押）</h5>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">配置推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">东方Project</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image57.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">quiet room</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 11+</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">东方Project</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image58.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">クレイジークレイジーダンサーズ</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 11</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<h5 id="slide的停顿时间中点有tapslide启动拍有不同键位tap换手双押">slide的停顿时间中点有tap，slide启动拍有不同键位tap（换手双押）</h5>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">配置推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">niconico＆VOCALOID</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image59.png"></td>
+    <td class="tg-9wq8" rowspan="2">フリィダム ロリィタ</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 11+</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image60.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">ヒビカセ</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12</td>
+  </tr>
+   <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image61.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">Magical Flavor</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12+</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<h5 id="slide的停顿时间中点有tapslide启动拍有相同键位tap不换手双押海底捞配置">slide的停顿时间中点有tap，slide启动拍有相同键位tap（不换手双押）（“海底捞”配置）</h5>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">海底捞配置推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">音击/中二节奏</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image62.png"></td>
+    <td class="tg-9wq8" rowspan="2">Tic Tac DREAMIN’</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 11</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="wangxiang.png"></td>
+    <td class="tg-9wq8" rowspan="2">妄想感傷代償連盟</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">ReM 12+</td>
+  </tr>
+   <tr>
+    <td class="tg-9wq8" rowspan="2">其他游戏</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image63.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">City Escape: Act1</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">ReM 12</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">音击/中二节奏</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image64.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">My Dearest Song</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12+</td>
+  </tr>
+   <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="umiyuri.png"></td>
+    <td class="tg-9wq8" rowspan="2">ウミユリ海底譚</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 13</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">海底捞变式推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">东方Project</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image65.jpeg"></td>
+    <td class="tg-9wq8">不思議の国のクリスマ</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12+</td>
+    <td class="tg-9wq8">倒立海底譚</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image66.jpeg"></td>
+    <td class="tg-9wq8">フィクサー</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 13</td>
+    <td class="tg-9wq8">以夹角较大的连续slide为底板的海底譚</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="dx.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image67.png"></td>
+    <td class="tg-9wq8">絶え間なく藍色</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 13</td>
+    <td class="tg-9wq8">以夹角较大的连续slide为底板的海底譚</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="echo.png"></td>
+    <td class="tg-9wq8">ECHO</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 13</td>
+    <td class="tg-9wq8">同轴海底譚</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="dx.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image68.jpeg"></td>
+    <td class="tg-9wq8">Flashkick</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 13</td>
+    <td class="tg-9wq8">把夹的tap换成双押的海底譚</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="dx.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image69.jpeg"></td>
+    <td class="tg-9wq8">ワードワードワード</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 13</td>
+    <td class="tg-9wq8">把夹的tap换成touch的海底譚</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<p>错位真正开发了星星音符的潜力，赋予了maimai生命，把它变成了一个相对任何音游都很独特的存在：它既割裂又完整，割裂在头和slide要当成两个音符处理，完整在它们永远结伴出现，一个符号引出两个音符，第二个音符永远会在一拍后如约而至。</p>
+<h4 id="等速穿心slide风车星星">等速穿心slide（风车星星）</h4>
+<p>星星头等间隔从连续的键位飞出，且slide经历时间相同，且都为穿过圆心的笔直slide，这样的一种配置在玩家中被称为“风车星星”。至于为什么叫风车星星，由下图可见一斑。</p>
+<figure>
+  <img src="fengche.png" style="width:50%" alt="等速穿心slide（风车星星）谱面示意">
+  <figcaption>等速穿心slide（风车星星）谱面示意</figcaption>
+</figure>
+<p>处理方法有提前绕手和换手两种，两种都行，只要稳就可以。绕手打法顾名思义，哪只手打星星头就用哪只手划slide，另一只手绕过去打下一个星星头。下面说一下换手打法。</p>
+<figure>
+  <img src="fengche_1.png" alt="风车配置手法示意">
+  <figcaption>风车配置手法示意</figcaption>
+</figure>
+<p>如图所示。换手打法可以简记为：<font color="red"><b>两手分工，一只手拍键，一只手划屏。</b></font>但这只是其中一种解法。不同的情况还需要自己注意换手顺序。</p>
+<p>有这种配置的歌，基本都不是省油的灯。下面选的曲目，既有最基础的风车，也有综合了拍拍划、综合了跳拍的风车等。等到你推这个列表时，读谱肯定不是问题了。</p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">风车星星推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">其它游戏</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image72.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">セイクリッド ルイン</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 11</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">东方Project</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image73.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">フラグメンツ -T.V. maimai edit-</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12</td>
+  </tr>
+   <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image74.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">One Step Ahead</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 11+</td>
+  </tr>
+      <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image75.jpeg"></td>
+    <td class="tg-9wq8">モザイクロール</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 11+</td>
+    <td class="tg-9wq8">综合拍拍划的风车</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">东方Project</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image76.jpeg"></td>
+    <td class="tg-9wq8">物凄い勢いでけーねが物凄いうた</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12</td>
+    <td class="tg-9wq8">综合拍拍划的风车</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">东方Project</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="tengu.png"></td>
+    <td class="tg-9wq8">天狗の落とし文 feat. ｙｔｒ</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12</td>
+    <td class="tg-9wq8">综合跳拍与拍划的风车</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<h4 id="换手初步">换手初步</h4>
+<p>前文风车星星提到了“换手”的星星处理方法。其实“换手”包含着对星星音符的深入理解——星星头和slide并没有规定用同一只手处理，这是两个独立的音符！如果你用左手打了星星头，接下来的slide却是用右手处理的，就可以说用了换手。</p>
+<p>那么，什么时候换手呢？其实现在没有定论。不过即便如此，“手法”的目的都是为了让你的手更顺，降低配置处理的难度。所以换手存在一些可以应用的思路，可以用在初见或者对推歌手法的设计上。下我提供一些思路：</p>
+<ul>
+<li>
+<p><font color="red"><b>用与slide末尾所在半边相同的手去划slide。</b></font>假设一条slide是从屏幕右边流向左边，同时右侧的键位飞出tap，这时如果你用拍星星头的手（右手）去划slide，你就不得不用左手去处理右侧的tap，这时你的左右手就打结了。固然，你可以通过扭动你的身体来改变maimai的对称轴，从而使“左右之势异也”，但是所有星星都这么处理，难保从容。此时你只需用左手划slide，右手就可以处理右侧的tap，姿态一下子就顺畅了。</p>
+</li>
+<li>
+<p><font color="red"><b>如果时间允许，每一个星星音符都先别急着确定划slide的手。集中注意力，观察tap的出没位置，即时判断划slide手。</b></font>如（1）中提到的情况，如果改成tap从左边出现，那划slide的手又是右手合适了。风车星星中也不是每一个星星音符都要换手，如起手、结束、与对称轴相邻的星星，视具体情况而定。</p>
+</li>
+</ul>
+<p>虽说换手没有定论，但是有定式：存在不少引导你换手的slide形式，并且特征明显，需要多打、多内化，吸收足够多换手谱面的构成之后，你会发现初见就能换成功是可行的。对于足够慢的星星，直接靠反应力就行；对于快一点的星星我总结了几个定式，仅供参考：</p>
+<blockquote>
+<p>（1）风车星星；</br>
+（2）一圈星星头从连续的键位飞出（与风车星星类似）；</br>
+（3）一圈音符（有tap有星星头）从连续的键位飞出，同时星星头引出的slide方向与出键方向相反；</br>
+（4）一对贴边对称的双押slide。</p>
+</blockquote>
+<p>风车星星已经在上一节进行讲解，接下来对配置（2）以《緋色のDance》的Re:Master谱面40%达成率左右开始的谱面为例进行说明。</p>
+<p>《緋色のDance》Re:Master谱面中盘开始如下图，上排图的连续四个星星音符不换手的话挺卡手，而如果<font color="red"><b>所有星星头用左手打，所有slide用右手划，</b></font>你会发现一切似乎迎刃而解。下排图则是所有星星头用右手打，所有slide用左手划。这个换手基本符合“用与slide末尾所在半边相同的手去划slide”。</p>
+<p><img src="/p/maimai/feise.png"
+	width="1280"
+	height="666"
+	srcset="/p/maimai/feise_huef532fcd6fa795870617ffab5506a06a_1075094_480x0_resize_box_3.png 480w, /p/maimai/feise_huef532fcd6fa795870617ffab5506a06a_1075094_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="“绯色Dance”配置手法示意"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="192"
+		data-flex-basis="461px"
+	
+></p>
+<p>配置（3）我愿将其称为“死亡镰刀”配置。因为其在《Death Scythe》这首歌的Master谱面中大量出现。对于“死亡镰刀”配置，接下我选择对《明星ロケット》的Master谱面副歌部分进行讲解。</p>
+<p>如下图，谱面的构成正如同配置的叙述一般，“一圈音符（有tap有星星头）从连续的键位飞出，同时星星头引出的slide方向与出键方向相反”。同时还具有一个特点：每个音符都相隔一个八分音符。分页思路让我们左手打左边的tap，右手打右边的tap，但如果用打星星头的手划slide，则手会卡住。</p>
+<p>所以就有了处理定式：图中所有星星的换手方法都可以用<font color="red"><b>“tap分页，拍打与星星头相隔一个四分音符的tap时用另一只手一下子划完slide”</b></font>来处理。</p>
+<p><img src="/p/maimai/liandao.png"
+	width="732"
+	height="720"
+	srcset="/p/maimai/liandao_hud1fc73473a9d1d091db8611f707905d3_676534_480x0_resize_box_3.png 480w, /p/maimai/liandao_hud1fc73473a9d1d091db8611f707905d3_676534_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="“死亡镰刀”配置手法示意"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="101"
+		data-flex-basis="244px"
+	
+></p>
+<p>配置（3）讲清楚了，配置（4）就很好说了，都是利用你的分页思路让你别手。这种配置的组成如图1-19，单条slide的处理方法与配置（3）中的别无二致，配置处理方法则是<strong>打完立马双手换位置划slide。当然也可以不换手，用扭动身体来对应。</strong></p>
+<figure>
+  <img src="huanshou.png" style="width:50%" alt="一种常见换手配置示意">
+  <figcaption>一种常见换手配置示意</figcaption>
+</figure>
+<hr>
+<h3 id="延伸阅读"><strong>延伸阅读</strong></h3>
+<p>考虑到教程受众问题，进阶玩家可能会自行寻找进阶教程，故这里仅简要讲解一部分可能需要用到的知识。</p>
+<h4 id="a区免判">A区免判</h4>
+<p>A区是最贴近按键框的判定区，每一个按键对应一个，也是内屏玩家触摸tap、hold音符的区域。由于slide皆由某个键指向某个键，所以它们一定会从A区出发。原则上需要依次触摸slide经过的判定区，然而，在实际的游玩过程中，A区可以是免判的，即你不需要触碰slide开始的A区，就可以判定完整条slide。对于会在slide划动过程中在启动键位继续出键的谱面（典型的如下图，FREEDOM DiVE (tpz Overcute Remix) Master难度），避开A区划动slide可以避免将tap蹭绿。</p>
+<figure>
+  <img src="fdaqu.png" style="width:50%" alt="freedomdive A区免判">
+  <figcaption>谱面示意</figcaption>
+</figure>
+<h4 id="跳区">跳区</h4>
+<p>slide在划动过程中，若按顺序判定完（指按下并抬手）某两个间隔了一个区域的区域，则中间的判定区会直接跳过。例如下图这条1-5的直线slide，当你按下C判定区后（并抬手），再按下A5区，该slide将会直接被判定，无视B5判定区。</p>
+<p><img src="/p/maimai/tiaoqu1.png"
+	width="1280"
+	height="636"
+	srcset="/p/maimai/tiaoqu1_hub79ce2738f93df46d84ab6c63a6dc9c8_614363_480x0_resize_box_3.png 480w, /p/maimai/tiaoqu1_hub79ce2738f93df46d84ab6c63a6dc9c8_614363_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="跳区谱面示意"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="201"
+		data-flex-basis="483px"
+	
+></p>
+<p>但是值得注意的是，三格长度的slide将受到跳区保护（由于A区免判的存在，若可以跳区则该slide只触碰第三格就会被判定），例如，下图这条星星必须触碰第二、第三判定区才可以判定。</p>
+<figure>
+  <img src="tiaoqu2.png" style="width:50%" alt="跳区保护示意">
+  <figcaption>跳区保护谱面示意</figcaption>
+</figure>
+<h4 id="超慢速星星的判定时机">超慢速星星的判定时机</h4>
+<p>大部分情况下你只需要跟着星星头划即可，或者直接划完大部分区域，在slide最后到达时触碰最后的区域即可。但是若slide极其之慢，那么你就需要注意触碰slide的时机，这个时候你手跟着星星头容易过快或者过慢。</p>
+<p>slide真正的判定时机是星星头的中心进入判定边界，但是无需强记。这里有个小技巧：在星星头的中心大约到达两个判定点连线的中心（大约是slide还剩四个小块的位置）时，触碰slide最后的部分。下图即为示意（谱面为《Credits》 的Expert谱面，终盘有一条长达12秒的slide）。</p>
+<p><img src="/p/maimai/credits.png"
+	width="1280"
+	height="645"
+	srcset="/p/maimai/credits_hueda1b41d296d2f454976e875fc1f1dae_283636_480x0_resize_box_3.png 480w, /p/maimai/credits_hueda1b41d296d2f454976e875fc1f1dae_283636_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="超慢速星星的判定时机谱面示意"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="198"
+		data-flex-basis="476px"
+	
+></p>
+<h4 id="延迟星星与内置bpm">延迟星星与内置BPM</h4>
+<p>maimai的星星启动延迟是一个四分音符，但是谱师可以单独修改一条星星的BPM改变这个延迟。大部分情况下谱师对于延迟星星的使用仅限于特效（如下图《QZKago Requiem》ReMaster难度中盘延迟星星）和少数neta（《マイマイマイラブ》结尾neta PV、《Now or Never》中段neta歌词、《Grievous Lady》neta Arcaea中的倒车段）。</p>
+<figure>
+  <img src="delay.png" style="width:50%" alt="延迟星星示意">
+  <figcaption>《QZKago Requiem》Re:Master难度中盘延迟星星</figcaption>
+</figure>
+<p>除此之外，更常见的则是改变一首歌的整体BPM而让全部星星的延迟增加/减少，如《Altale》全难度。这首歌外标BPM=90，而写作时谱师实际上使用了BPM=60，星星的启动延迟也就变为了原来的1.5倍，也即一个附点四分音符（三个八分音符），产生的效果是，（请先回顾1.2.2节）Expert谱面中的slide会在你打下第四个tap时启动（这个谱面中这些tap基本均为八分tap）。</p>
+<p>提到这里，强烈推荐新人入坑时多次游玩、甚至不惜以背谱的方式提高该谱面的成绩，经多数人验证，这在前期可以有效让你管住那就是停不住的手。</p>
+<p>《Altale》expert难度谱面如下图，第4个八分tap才是真正的启动拍。</p>
+<p><img src="/p/maimai/delay2.png"
+	width="1280"
+	height="608"
+	srcset="/p/maimai/delay2_hu76ccc253f8978eee80c94132d2b5128e_589668_480x0_resize_box_3.png 480w, /p/maimai/delay2_hu76ccc253f8978eee80c94132d2b5128e_589668_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="《Altale》expert难度延迟星星启动拍示意"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="210"
+		data-flex-basis="505px"
+	
+></p>
+<hr>
+<h2 id="键位篇"><strong>键位篇</strong></h2>
+<p>已在其他音游练过相应配置的可略去这一章，键位篇面向的是零音游基础直接入坑maimai的玩家。不过对于移动端音游玩家，本篇带有位移的部分，或许也能给你提供一些帮助。</p>
+<h3 id="基础配置"><strong>基础配置</strong></h3>
+<h4 id="键位映射能力">键位映射能力</h4>
+<p>刚入坑maimai第一个问题基本是手找不到键位。很正常，与指哪打哪的移动端音游不同，带有实体键位的音游入门第一件事都是建立键位映射。再加上maimai具有现役机种中几乎最大的按键间距，很容易让老手都拍到塑料框。</p>
+<p>打所有歌曲都能让键位映射更熟练，而练习键位有规律的、带有变化的谱面是入门建立初步键位映射最快的方式。</p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">找键推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">流行&动漫</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image86.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">ウッーウッーウマウマ</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">ADV 7</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image87.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">GEMINI -M-</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">ADV 7</td>
+  </tr>
+   <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="oshama.png"></td>
+    <td class="tg-9wq8" rowspan="2">Oshama Scramble!</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">ADV 7+</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image88.png"></td>
+    <td class="tg-9wq8" rowspan="2">Jumble Rumble</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">ADV 8</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image89.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">CITRUS MONSTER</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">ADV 8</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">流行&动漫</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image86.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">ウッーウッーウマウマ</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 8+</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image90.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">AMAZING MIGHTYYYY!!!!</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">ADV 9</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">东方Project</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image91.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">患部で止まってすぐ溶ける～狂気の優曇華院</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 9+</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+<h4 id="身体调动交叉手">身体调动——交叉手</h4>
+<p>初级的谱子中常见时间上相接、依次在相邻键位出现的长条，有不少新人在打歌的时候，一只手在打音符的时候，另一只手不是“战备状态”，连续出现的hold用一只手打，一个hold结束之后赶忙松手去接下一个，这样会挺窘迫。maimai的许多谱都需要把身体调动起来，加大动作幅度。</p>
+<p>在无印版本（即maimai、maimai PLUS）到GreeN、甚至GreeN PLUS的一段时间内，大部分谱子都极其偏好出现在屏幕同一侧（左/右）的邻键交叉走位，</p>
+<p>即使这样非常卡手。</p>
+<p>例如要求用两手交叉去按同一侧的卡手hold，由于这样使得另外一侧的手需要越过中线来到另一侧，动作幅度较大，新人比起交叉手，很可能更倾向用一只手硬抗。养成交叉手的习惯有助于你快速掌握键盘走位的感觉。</p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">交叉手推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">舞萌</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image92.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">Fragrance</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">ADV 8</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">东方Project</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image93.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">魔理沙は大変なものを盗んでいきました</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 8</td>
+  </tr>
+   <tr>
+    <td class="tg-9wq8" rowspan="2">东方Project</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image94.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">Starlight Dance Floor</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 9</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<h4 id="交互及其变式">交互及其变式</h4>
+<p>交互指左右手按左、右、左、右…的手序，等间隔击打两个键位出来的音符。左手开始称为左起交互、右手称为右起交互。</p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">交互推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">其他游戏</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image95.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">鼓動</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 9+</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">东方Project</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image96.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">東方スイーツ！～鬼畜姉妹と受難メイド～</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 9+</td>
+  </tr>
+   <tr>
+    <td class="tg-9wq8" rowspan="2">东方Project</td>
+    <td class="tg-9wq8"><img src="dx.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image97.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">ナイト・オブ・ナイツ &#40Cranky Remix&#41</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image98.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">Acceleration</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10+</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image99.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">いっしそう電☆舞舞神拳！</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">音击/中二节奏</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image100.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">SPICY SWINGY STYLE</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10+</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image101.png"></td>
+    <td class="tg-9wq8" rowspan="2">FEEL the BEATS</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">其他游戏</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image102.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">Garden Of The Dragon</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10+</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">音击/中二节奏</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image103.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">奏者はただ背中と提琴で語るのみ</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 11</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">其他游戏</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image104.png"></td>
+    <td class="tg-9wq8" rowspan="2">DADDY MULK -Groove remix-</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 11</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">东方Project</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image105.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">華鳥風月</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image106.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">Prophesy One</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 11</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">其他游戏</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image107.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">Got more raves？</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 11+</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">东方Project</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image108.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">永遠のメロディ</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 11+</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<h5 id="交互节奏散点">交互节奏散点</h5>
+<p>交互节奏散点指——节奏上与交互相同，都是等间隔；手序上常与交互相同，都是左右交替；但音符并不是从固定的两个键位出来，而是一直在变化——这样的一串音符。非常有意思的是，这样的一串音符以长交互为基础，但是有时却可以先于长交互练习，给长交互打基础。</p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">交互节奏散点推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">舞萌</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image109.png"></td>
+    <td class="tg-9wq8" rowspan="2">アージェントシンメトリー</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 9+</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image110.png"></td>
+    <td class="tg-9wq8" rowspan="2">アンハッピーリフレイン</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10+</td>
+  </tr>
+   <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image111.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">どうしてこうなった</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10+</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image112.png"></td>
+    <td class="tg-9wq8" rowspan="2">Kinda Way</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">东方Project</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image113.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">四次元跳躍機関</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12+</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<h5 id="长交互">长交互</h5>
+<p>长交互指音符数量较多的交互。平时音游玩家交流时，不带修饰词单说“交互”常指长交互。难点在于耐力和协调。建议的练习方式是打长交互的时候，把注意力集中在音乐“强拍”所在的手上，保证这只手打准，另一只手只保留意识。一般是右起交互把注意力集中在右手的一串上，左起交互把注意力集中在左手的一串上。同时力量上也是不平衡的，强拍所用的手使用的力气更大。等强拍能抓准了，再去练习另一只手的准度。</p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">交互节奏散点推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">其他游戏</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image114.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">Brain Power</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10+</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="oshama.png"></td>
+    <td class="tg-9wq8" rowspan="2">Oshama Scramble!</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 11</td>
+  </tr>
+   <tr>
+    <td class="tg-9wq8" rowspan="2">其他游戏</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image116.png"></td>
+    <td class="tg-9wq8" rowspan="2">YA･DA･YO &#91Reborn&#93</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 12</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">东方Project</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image117.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">待チ人ハ来ズ。</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12+</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">音击/中二节奏</td>
+    <td class="tg-9wq8"><img src="dx.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image118.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">管弦楽組曲 第3番 ニ長調「第2曲（G線上のアリア）」BWV.1068-2</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 13+</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<h4 id="切键">切键</h4>
+<p>记双押为2，单点为1，切键指如同“21212&hellip;”“2112112&hellip;”“21112111&hellip;”且双押与单点键位不重合的配置。切键能综合考察协调、体力、位移、定位，这种配置贯穿低难度到高难度。</p>
+<p>切键用力的诀窍便在于将用力重心放在始终需要击打按键的手，一般来说简单的切键会有一只手打八分节奏配上位移，另外一只手打四分节奏。那么你应该着重去稳住八分节奏。低难度的切键中，单点会放在双押附近的定点，另一只手只需位移去接。而较难的切键中，单点有时会在键盘上移动，考察你的定位能力。</p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">切键推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">音击/中二节奏</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image119.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">その群青が愛しかったようだった</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="dx.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image120.png"></td>
+    <td class="tg-9wq8" rowspan="2">骸骨楽団とリリア</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10+</td>
+  </tr>
+   <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image121.png"></td>
+    <td class="tg-9wq8" rowspan="2">End of Twilight</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10+</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">东方Project</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image122.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">Doll Judgment</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 11</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">音击/中二节奏</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image123.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">イロトリドリのメロディ</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 11+</td>
+  </tr>
+     <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image124.png"></td>
+    <td class="tg-9wq8" rowspan="2">アウターサイエンス</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 11+</td>
+  </tr>
+     <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="dx.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image125.png"></td>
+    <td class="tg-9wq8" rowspan="2">デンパラダイム</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 11+</td>
+  </tr>
+     <tr>
+    <td class="tg-9wq8" rowspan="2">音击/中二节奏</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image126.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">Kattobi KEIKYU Rider</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 12+</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<h4 id="双押阵">双押阵</h4>
+<p>顾名思义，是大量不同组合的双押短时间依次飞出，考察键位映射和手的摆放（举个例子，6、8号键的双押，可以左手在上右手在下，也可反过来，不同情况顺手程度不一样）。</p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">双押阵推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">舞萌</td>
+    <td class="tg-9wq8" style="width:15%"><img src="dx.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image127.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">魔ジョ狩リ</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 11</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">音击&中二节奏</td>
+    <td class="tg-9wq8"><img src="dx.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image128.png"></td>
+    <td class="tg-9wq8" rowspan="2">宛城、炎上！！</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 12</td>
+  </tr>
+   <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image129.png"></td>
+    <td class="tg-9wq8" rowspan="2">Imitation:Loud Lounge</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 11+</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">其他游戏</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image130.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">ENERGY SYNERGY MATRIX</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 11+</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<h4 id="短纵">短纵</h4>
+<p>纵连指从同一个键位等间隔快速出现音符。短纵指音符数量较少的纵连，如只有两个音符的纵连被称为二纵，三个音符的称为三纵。一个键位等间隔快速出现音符称为单手纵连，两个键位同时等间隔快速出现音符称为双手纵连。</p>
+<p>Maimai的按键键程较长，但按键力度实际上并不大。对于短纵（四个以内），或中速的硬抗纵连可以采用“抖”的方法击打，即绷住小臂与腕部肌肉，小幅度抖动，使用指尖敲击，不仅手速够快，体力消耗也相当的低。</p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">短纵推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">东方Project</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image131.png"></td>
+    <td class="tg-9wq8" rowspan="2">サドマミホリック</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image132.png"></td>
+    <td class="tg-9wq8" rowspan="2">バーチャルダム ネーション</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10+</td>
+  </tr>
+   <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image133.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">終点</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 11</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<h4 id="轴叠键">轴叠键</h4>
+<p>同一个键位上持续飞出tap，同时另一只手要处理其他键位飞出的音符。从同一个键位出来的那一串音符称为“轴”。叠键指前后两下拍打有重叠的键位。</p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">轴叠键推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">舞萌</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image134.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">HERA</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 11+</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image135.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">Life Feels Good</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 11+</td>
+  </tr>
+   <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="dx.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image136.png"></td>
+    <td class="tg-9wq8" rowspan="2">モ°ルモ°ル</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 12</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="dx.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image137.png"></td>
+    <td class="tg-9wq8" rowspan="2">サヨナラチェーンソー</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id="进阶配置"><strong>进阶配置</strong></h3>
+<h4 id="单手楼梯">单手楼梯</h4>
+<p>楼梯指音符按键位编号顺序依次等间隔飞出。如1234、6543、6781都是楼梯。单手楼梯指一串楼梯用同一只手打。本质还是找键（定位）的能力，难点在于时间准确度和位置准确度的统一，意即，用单手打楼梯，音符时间上打准了，但是你手拍框上了；或者你手把楼梯的键位都拍准了，但是一串粉绿我的建议是，先确保位置准确度，稳定了之后再提升时间准确度。顺序反过来则掌握难度会加大。</p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">单手楼梯推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">niconico＆VOCALOID</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image138.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">ロミオとシンデレラ</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 11+</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image74.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">One Step Ahead</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 11+</td>
+  </tr>
+   <tr>
+    <td class="tg-9wq8" rowspan="2">其他游戏</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image139.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">麒麟</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 11+</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<h4 id="长纵">长纵</h4>
+<p>长纵连指音符数量较多的纵连。这里不包括拆分为交互打法的纵连。maimai的纵连速度都不快，没有到要研究发力方式的程度。所以没有特殊的练习方法，只需要堆练习量。</p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">长纵连推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">niconico＆VOCALOID</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image140.png"></td>
+    <td class="tg-9wq8" rowspan="2">このピアノでお前を8759632145回ぶん殴る</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">其他游戏</td>
+    <td class="tg-9wq8"><img src="dx.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image141.png"></td>
+    <td class="tg-9wq8" rowspan="2">サンバランド</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 10+</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<h4 id="叠键">叠键</h4>
+<p>叠键指前后两下拍打有重叠的键位。maimai中的叠键一般以单双的形式出现。当然，其实双押纵连也算叠键。难点在于，你要控制两只手的力度不一样，纵连的那只手是先重后轻。即也是“抖”的感觉。</p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">叠键推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">舞萌</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image142.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">QZKago Requiem</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 12</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image143.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">Glorious Crown</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 12+</td>
+  </tr>
+   <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image144.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">the EmpErroR</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 12+</td>
+  </tr>
+     <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image145.png"></td>
+    <td class="tg-9wq8" rowspan="2">ドーナツホール</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 13+</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<h4 id="swing节奏跳拍">Swing节奏（跳拍）</h4>
+<p>Swing是一种爵士乐最基本最常见的演奏方式，指的是“把乐谱上前后半拍演奏成不等长”的手法，可以是2：1，也可以是3：1甚至是更极端的比例等等。当前后半拍的比例为2：1，这情况除了可称为Swing，还可以说成是Shuffle。这种配置因有跳跃感，被maimai玩家称为跳拍。</p>
+<p>maimai中跳拍时值基本也是这两种，其中以Shuffle居多：</p>
+<blockquote>
+<ul>
+<li>
+<p>2：1。同一组音符中第一个为六分音符（三分之二拍），第二个为十二分音符（三分之一拍）。</p>
+</li>
+<li>
+<p>3：1。同一组音符中第一个为附点八分音符（四分之三拍），第二个为十六分音符（四分之一拍）。</p>
+</li>
+</ul>
+</blockquote>
+<p>这一句对跳拍配置的叙述即为读谱的技巧。常常结合交叉手考察。也是堆练习量去感受节奏。常见的形式是一系列从不同键位出来的二纵。同一个二纵中前后两个音符间隔占比例中的大份，前一个二纵的第二个音符和后一个二纵的第一个音符间隔占比例中的小份。</p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">跳拍推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">niconico＆VOCALOID</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image146.png"></td>
+    <td class="tg-9wq8">結ンデ開イテ羅刹ト骸</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 11</td>
+    <td class="tg-9wq8">紫白均可</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">东方Project</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image147.jpeg"></td>
+    <td class="tg-9wq8">隠然</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 11+</td>
+    <td class="tg-9wq8">紫白均可</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">舞萌</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image148.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">おても☆Yan</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">其他游戏</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image149.png"></td>
+    <td class="tg-9wq8" rowspan="2">Ignis Danse</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 12</td>
+  </tr>
+   <tr>
+    <td class="tg-9wq8" rowspan="2">东方Project</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image150.png"></td>
+    <td class="tg-9wq8" rowspan="2">橙の幻想郷音頭</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12+</td>
+  </tr>
+     <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image151.png"></td>
+    <td class="tg-9wq8" rowspan="2">チュルリラ・チュルリラ・ダッダッダ！</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 13</td>
+  </tr>
+       <tr>
+    <td class="tg-9wq8" rowspan="2">东方Project</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image122.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">Doll Judgment</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 13+</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">舞萌</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image152.png"></td>
+    <td class="tg-9wq8">Ultranova</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 11+</td>
+    <td class="tg-9wq8">3:1</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<h4 id="扫键">扫键</h4>
+<p>扫键即是快速的、基本无法硬抗的楼梯。顾名思义，直接用手掌外侧去扫。难在速度的掌握。</p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">扫键推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">其他游戏</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image153.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">Quartet Theme &#91Reborn&#93</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="dx.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image154.png"></td>
+    <td class="tg-9wq8" rowspan="2">明星ギャラクティカ</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12</td>
+  </tr>
+   <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image155.png"></td>
+    <td class="tg-9wq8" rowspan="2">しねばいいのに</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image156.png"></td>
+    <td class="tg-9wq8" rowspan="2">M.S.S.Planet</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">niconico＆VOCALOID</td>
+    <td class="tg-9wq8"><img src="dx.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="tianhu.png"></td>
+    <td class="tg-9wq8" rowspan="2">アマツキツネ</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 11+</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">其他游戏</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image158.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">夜明けまであと３秒</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 12</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image159.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">Schwarzschild</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">EXP 11+</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="dx.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image160.png"></td>
+    <td class="tg-9wq8" rowspan="2">絡めトリック利己ライザー</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<h4 id="转圈">转圈</h4>
+<p>顾名思义，是以扫键为基础，扫一圈或者多圈。可以一只手转，也可以分页转（右侧用右手，左侧用左手），一般强拍在圈的起点。maimai一圈是8个键，若圈上每个tap都为32分音符，则一圈刚好是一拍。</p>
+<div class="tg-wrap">
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix" colspan="4">转圈推荐练习曲</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">舞萌</td>
+    <td class="tg-9wq8" style="width:15%"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image161.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">ぐるぐるWASH！コインランドリー・ディスコ</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 11+</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8" rowspan="2">其他游戏</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image162.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">City Escape: Act1</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12</td>
+  </tr>
+   <tr>
+    <td class="tg-9wq8" rowspan="2">东方Project</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image163.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">チルノのパーフェクトさんすう教室</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12</td>
+  </tr>
+     <tr>
+    <td class="tg-9wq8" rowspan="2">舞萌</td>
+    <td class="tg-9wq8"><img src="st.png"></td>
+    <td class="tg-9wq8" rowspan="2"><img src="image164.jpeg"></td>
+    <td class="tg-9wq8" rowspan="2">Dreampainter</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12</td>
+  </tr>
+    <tr>
+    <td class="tg-9wq8" rowspan="2" style="width:30%">舞萌</td>
+    <td class="tg-9wq8" style="width:15%"><img src="dx.png"></td>
+    <td class="tg-9wq8" rowspan="2" style="width:15%"><img src="image165.jpeg"></td>
+    <td class="tg-9wq8">ヤミツキ</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">MAS 12</td>
+    <td class="tg-9wq8">引导分页的转圈</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<p><strong>感谢您的观看。</strong></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a class="link" href="https://nicechord.com/post/notation-essentials/"  target="_blank" rel="noopener"
+    >五線譜：一次搞懂所有你該知道的、基本的事情</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a class="link" href="https://maimai.sega.jp/news/2019-08-07/"  target="_blank" rel="noopener"
+    >Ver.DX1.02-Aのリリースと仕様変更につきまして</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2024 车奶研究室
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.21.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
