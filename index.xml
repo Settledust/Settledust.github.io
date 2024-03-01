@@ -142,7 +142,7 @@
 &lt;hr&gt;
 &lt;h3 id=&#34;基础配置及处理手法&#34;&gt;&lt;strong&gt;基础配置及处理手法&lt;/strong&gt;&lt;/h3&gt;
 &lt;h4 id=&#34;顿一拍然后一下子划完slide&#34;&gt;顿一拍，然后一下子划完slide&lt;/h4&gt;
-&lt;p&gt;基本原理2&lt;a href=&#39;#基本原理2&#39;&gt;&lt;sup&gt;&lt;font color=&#34;#00FFFF&#34;&gt;页内跳转&lt;/font&gt;&lt;/sup&gt;&lt;/a&gt;是非常重要的，会伴随你整个舞萌生涯。由原理2和前置知识可知，一首歌BPM越高，则拍完星星头停顿的时间越短。&lt;/p&gt;
+&lt;p&gt;基本原理2&lt;a href=&#39;#基本原理2&#39;&gt;&lt;sup&gt;&lt;font color=&#34;#39C5BB&#34;&gt;页内跳转&lt;/font&gt;&lt;/sup&gt;&lt;/a&gt;是非常重要的，会伴随你整个舞萌生涯。由原理2和前置知识可知，一首歌BPM越高，则拍完星星头停顿的时间越短。&lt;/p&gt;
 &lt;p&gt;事实上，BPM高或低（停顿时间短或长）的曲子都得练，但是根据我对很多新手的实际观察，新手在打星星不够快的歌时，拍完星星头往往会直接开始划slide，无论打多少遍都无法练成有意识的停顿一拍再划。我回忆起我从7级入门到打13级的过程中所亲身经历的、观察的人和事，在此武断的下个结论：低等级的歌写慢速星星会对路人十分友好，却绝对不利于硬核向玩家的晋升。&lt;/p&gt;
 &lt;p&gt;那新手前期应该打什么样的歌呢？&lt;/p&gt;
 &lt;p&gt;设想，如果一首曲子BPM=150，谱师把曲子里大部分slide经历的时间制定为一个8分音符，则计算可知，应当拍了星星头之后停顿0.4秒（一拍）、再用0.2秒的时间划完slide，而在maimai这么大的屏幕上，0.2秒划完一条slide是要用比较快的速度的；所以打这首歌时，大部分星星音符都可以用&lt;font color=&#34;red&#34;&gt;&lt;b&gt;“拍完星星头顿一拍，然后一下子划完”&lt;/b&gt;&lt;/font&gt;来处理。这样的曲子，是最利于新手练习停顿、体会到slide的节奏感的。&lt;/p&gt;
@@ -309,7 +309,7 @@ img {
 &lt;/table&gt;
 &lt;/div&gt;
 &lt;h4 id=&#34;连续slide&#34;&gt;连续slide&lt;/h4&gt;
-&lt;p&gt;这个配置的基础是配置3.2.2&lt;a href=&#39;#在slide-的启动拍其他键位出tap&#39;&gt;&lt;sup&gt;&lt;font color=&#34;#00FFFF&#34;&gt;页内跳转&lt;/font&gt;&lt;/sup&gt;&lt;/a&gt;。理解之后，“连续slide”指安插在第一条slide启动拍的tap，是第二条slide的星星头；在第二条slide启动拍，又安插第三个slide的星星头，如此嵌套下去。处理方法是：如下图所示，&lt;font color=&#34;red&#34;&gt;&lt;b&gt;拍打下一个星星头时，把上一个slide一下子划完，然后重复进行这个操作。不难发现，这种配置的组成是，配置3.2.2、配置3.2.2、配置3.2.2…&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;这个配置的基础是配置3.2.2&lt;a href=&#39;#在slide-的启动拍其他键位出tap&#39;&gt;&lt;sup&gt;&lt;font color=&#34;#39C5BB&#34;&gt;页内跳转&lt;/font&gt;&lt;/sup&gt;&lt;/a&gt;。理解之后，“连续slide”指安插在第一条slide启动拍的tap，是第二条slide的星星头；在第二条slide启动拍，又安插第三个slide的星星头，如此嵌套下去。处理方法是：如下图所示，&lt;font color=&#34;red&#34;&gt;&lt;b&gt;拍打下一个星星头时，把上一个slide一下子划完，然后重复进行这个操作。不难发现，这种配置的组成是，配置3.2.2、配置3.2.2、配置3.2.2…&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
 &lt;p&gt;在前期的常规谱中，有两种常见连续slide型：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ol&gt;
@@ -659,7 +659,7 @@ img {
   &lt;img src=&#34;cuowei.png&#34; style=&#34;width:90%&#34; alt=&#34;错位定义&#34;&gt;
   &lt;figcaption&gt;错位定义&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;读者可能会产生一个疑问：照这个定义，拍拍划&lt;a href=&#39;#在星星头的停顿时间中点同键位出tap拍拍划&#39;&gt;&lt;sup&gt;&lt;font color=&#34;#00FFFF&#34;&gt;页内跳转&lt;/font&gt;&lt;/sup&gt;&lt;/a&gt;应当算错位吧？拍完星星头之后，还要再处理一个tap，然后再划slide。还真是这么回事，拍拍划这个简单的键型里，蕴含着朴素的错位思想。只不过，还“不够错位”——拍、拍、划三个动作都在同一个键位，手一直停在一个位置，不用过多的思考，从而淡化了夹在中间那个tap给人带来的困扰。&lt;/p&gt;
+&lt;p&gt;读者可能会产生一个疑问：照这个定义，拍拍划&lt;a href=&#39;#在星星头的停顿时间中点同键位出tap拍拍划&#39;&gt;&lt;sup&gt;&lt;font color=&#34;#39C5BB&#34;&gt;页内跳转&lt;/font&gt;&lt;/sup&gt;&lt;/a&gt;应当算错位吧？拍完星星头之后，还要再处理一个tap，然后再划slide。还真是这么回事，拍拍划这个简单的键型里，蕴含着朴素的错位思想。只不过，还“不够错位”——拍、拍、划三个动作都在同一个键位，手一直停在一个位置，不用过多的思考，从而淡化了夹在中间那个tap给人带来的困扰。&lt;/p&gt;
 &lt;p&gt;你可能马上会想：“那为了困扰玩家，&lt;font color=&#34;red&#34;&gt;&lt;b&gt;要不把中间那个tap移到其他键位？&lt;/b&gt;&lt;/font&gt;”如果你想到了这一步，恭喜你，你开始理解一些核心的东西了。&lt;/p&gt;
 &lt;p&gt;拍拍划如果你认真练了，会发现谱师很喜欢把它和连续slide结合，即一串连续的拍拍划。&lt;font color=&#34;red&#34;&gt;&lt;b&gt;一串连续的拍拍划，把每一个拍拍划中间的tap移到其他键位，&lt;/b&gt;&lt;/font&gt;就诞生了下面这个谱面：&lt;/p&gt;
 &lt;div class=&#34;tg-wrap&#34;&gt;
@@ -682,7 +682,7 @@ img {
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/div&gt;
-&lt;p&gt;已经知道，在slide启动拍，其他键位出tap是基础配置3.2.2&lt;a href=&#39;#在slide-的启动拍其他键位出tap&#39;&gt;&lt;sup&gt;&lt;font color=&#34;#00FFFF&#34;&gt;页内跳转&lt;/font&gt;&lt;/sup&gt;&lt;/a&gt;；如果在slide启动拍，从同一个键位出tap，叫&lt;font color=&#34;red&#34;&gt;&lt;b&gt;“拍划”&lt;/b&gt;&lt;/font&gt;。拍划的打法是：手稍微抬一下，手与键连线与屏幕成钝角，拍tap时顺势把slide连带着一下划完。由于tap的判定较严，slide的判定较松，所以拍划键型里，“拍”的准度更重要，一定注意别着急导致拍快。可以打下面这首体验一下：&lt;/p&gt;
+&lt;p&gt;已经知道，在slide启动拍，其他键位出tap是基础配置3.2.2&lt;a href=&#39;#在slide-的启动拍其他键位出tap&#39;&gt;&lt;sup&gt;&lt;font color=&#34;#39C5BB&#34;&gt;页内跳转&lt;/font&gt;&lt;/sup&gt;&lt;/a&gt;；如果在slide启动拍，从同一个键位出tap，叫&lt;font color=&#34;red&#34;&gt;&lt;b&gt;“拍划”&lt;/b&gt;&lt;/font&gt;。拍划的打法是：手稍微抬一下，手与键连线与屏幕成钝角，拍tap时顺势把slide连带着一下划完。由于tap的判定较严，slide的判定较松，所以拍划键型里，“拍”的准度更重要，一定注意别着急导致拍快。可以打下面这首体验一下：&lt;/p&gt;
 &lt;div class=&#34;tg-wrap&#34;&gt;
 &lt;table class=&#34;tg&#34;&gt;
 &lt;thead&gt;
