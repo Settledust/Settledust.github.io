@@ -13,7 +13,7 @@
         <pubDate>Wed, 28 Feb 2024 18:28:32 +0800</pubDate>
         
         <guid>https://carmilk.moe/categories/%E6%95%99%E7%A8%8B/</guid>
-        <description></description>
+        <description>&lt;img src="https://carmilk.moe/categories/%E6%95%99%E7%A8%8B/freakreport.jpg" alt="Featured image of post 教程" /&gt;</description>
         </item>
         <item>
         <title>游戏</title>
@@ -21,15 +21,7 @@
         <pubDate>Wed, 28 Feb 2024 18:28:32 +0800</pubDate>
         
         <guid>https://carmilk.moe/categories/%E6%B8%B8%E6%88%8F/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Test</title>
-        <link>https://carmilk.moe/categories/test/</link>
-        <pubDate>Sun, 18 Feb 2024 00:20:44 +0800</pubDate>
-        
-        <guid>https://carmilk.moe/categories/test/</guid>
-        <description></description>
+        <description>&lt;img src="https://carmilk.moe/categories/%E6%B8%B8%E6%88%8F/game.jpg" alt="Featured image of post 游戏" /&gt;</description>
         </item>
         <item>
         <title>测试</title>
@@ -37,7 +29,7 @@
         <pubDate>Sun, 18 Feb 2024 00:20:44 +0800</pubDate>
         
         <guid>https://carmilk.moe/categories/%E6%B5%8B%E8%AF%95/</guid>
-        <description></description>
+        <description>&lt;img src="https://carmilk.moe/categories/%E6%B5%8B%E8%AF%95/test.jpg" alt="Featured image of post 测试" /&gt;</description>
         </item>
         
     </channel>

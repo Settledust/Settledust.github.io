@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Carmilk Laboratory</title>
-        <link>https://carmilk.moe/en/</link>
-        <description>Recent content on Carmilk Laboratory</description>
+        <title>Pages on Carmilk Laboratory</title>
+        <link>https://carmilk.moe/en/page/</link>
+        <description>Recent content in Pages on Carmilk Laboratory</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>车奶研究室</copyright>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://carmilk.moe/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://carmilk.moe/en/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Archives</title>
         <link>https://carmilk.moe/en/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>

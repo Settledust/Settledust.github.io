@@ -2,7 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://carmilk.moe/en/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://carmilk.moe/en/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -12,6 +16,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://carmilk.moe/en/"
+                />
+  </url><url>
+    <loc>https://carmilk.moe/en/page/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://carmilk.moe/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://carmilk.moe/en/page/"
                 />
   </url><url>
     <loc>https://carmilk.moe/en/categories/</loc>
@@ -24,6 +41,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://carmilk.moe/en/categories/"
+                />
+  </url><url>
+    <loc>https://carmilk.moe/en/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://carmilk.moe/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://carmilk.moe/en/search/"
                 />
   </url><url>
     <loc>https://carmilk.moe/en/tags/</loc>
