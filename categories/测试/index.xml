@@ -14,6 +14,28 @@
         
         <guid>https://carmilk.moe/p/test-markdown/</guid>
         <description>&lt;img src="https://carmilk.moe/p/test-markdown/halfsky.jpg" alt="Featured image of post Markdown语法写作尝试" /&gt;&lt;h1 id=&#34;markdown语法写作尝试&#34;&gt;Markdown语法写作尝试&lt;/h1&gt;
+&lt;p&gt;.article-content {
+color: #000;
+}&lt;/p&gt;
+&lt;article-content style=&#34;color:#303030&#34;&gt;
+&lt;meting-js server=&#34;netease&#34; type=&#34;playlist&#34; id=&#34;769332917&#34;&gt;&lt;/meting-js&gt;
+&lt;/article-content&gt;
+&lt;article-content style=&#34;color:#303030&#34;&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;APlayer.min.css&#34;&gt;
+&lt;div id=&#34;aplayer&#34;&gt;&lt;/div&gt;
+&lt;script src=&#34;APlayer.min.js&#34;&gt;&lt;/script&gt;
+&lt;script&gt;
+const ap = new APlayer({
+    container: document.getElementById(&#39;aplayer&#39;),
+    audio: [{
+        name: &#39;name&#39;,
+        artist: &#39;artist&#39;,
+        url: &#39;35. ウラノミト.mp3&#39;,
+        cover: &#39;halfsky.jpg&#39;
+    }]
+});
+&lt;/script&gt;
+&lt;/article-content&gt;
 &lt;p&gt;这是第一段。&lt;/p&gt;
 &lt;p&gt;这是第二段。（空白行）&lt;/p&gt;
 &lt;p&gt;这是第一行。&lt;br&gt;
