@@ -785,11 +785,11 @@ Hiroyuki Arakawa的这首是巅峰中的巅峰&lt;br&gt;
         
         <guid>https://carmilk.moe/p/maimai/</guid>
         <description>&lt;img src="https://carmilk.moe/p/maimai/cover.jpeg" alt="Featured image of post 舞萌（maimai）简明初级教程" /&gt;&lt;article-content style=&#34;color:#303030&#34;&gt;
-    &lt;meting-js server=&#34;netease&#34; type=&#34;playlist&#34; id=&#34;9415655848&#34; preload=&#34;none&#34; fixed=&#34;true&#34;&gt;&lt;/meting-js&gt;
+    &lt;meting-js server=&#34;netease&#34; type=&#34;playlist&#34; id=&#34;9415655848&#34; preload=&#34;none&#34;&gt;&lt;/meting-js&gt;
  &lt;/article-content&gt;
 &lt;p&gt;&lt;strong&gt;作者：&lt;a class=&#34;link&#34; href=&#34;https://space.bilibili.com/333716678&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;车奶&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;正文总计13000+字，阅读时间预计30分钟。&lt;/strong&gt;&lt;font color=&#34;red&#34;&gt;&lt;b&gt;电脑阅读有右边栏toc目录，体验更佳。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;正文总计13000+字，阅读时间预计30分钟。阅读的时候可以&lt;/strong&gt;&lt;font color=&#34;red&#34;&gt;&lt;b&gt;电脑阅读有右边栏toc目录，体验更佳。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;本教程有电子PDF版本（支持目录跳转）：&lt;a class=&#34;link&#34; href=&#34;https://pan.baidu.com/s/1Qkg7JXo6zgu8Buj6dPs2KA?pwd=gfx8&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;百度网盘&lt;/a&gt;、&lt;a class=&#34;link&#34; href=&#34;https://wwt.lanzouv.com/iiDwk0g06o4b&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;蓝奏云&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -831,20 +831,10 @@ Hiroyuki Arakawa的这首是巅峰中的巅峰&lt;br&gt;
 &lt;p&gt;Beat Per Minute，即每分钟的节拍数，用来表征一段音乐的快慢。&lt;/p&gt;
 &lt;h4 id=&#34;四分音符&#34;&gt;四分音符&lt;/h4&gt;
 &lt;p&gt;乐理中为了方便记谱，设定了一系列具有相对时间关系的音符。四分音符时间为全音符的四分之一。顾名思义，八分音符时间是四分音符的一半，二分音符则是四分音符的两倍。若音符带了一个“附点”，则表示时间乘1.5倍。&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://carmilk.moe/p/maimai/note.png&#34;
-	width=&#34;1659&#34;
-	height=&#34;418&#34;
-	srcset=&#34;https://carmilk.moe/p/maimai/note_hudecec00a8d7891fcea15458d0aa160f9_19365_480x0_resize_box_3.png 480w, https://carmilk.moe/p/maimai/note_hudecec00a8d7891fcea15458d0aa160f9_19365_1024x0_resize_box_3.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;五线谱记谱法中的五种音符记号&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;396&#34;
-		data-flex-basis=&#34;952px&#34;
-	
-&gt;&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;note.png&#34; style=&#34;width:100%&#34; alt=&#34;五线谱记谱法中的五种音符记号&#34;&gt;
+  &lt;figcaption&gt;五线谱记谱法中的五种音符记号&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;p&gt;（3）一拍：60秒除以BPM，即为这首曲子一拍的时间。作曲时，四分音符是最常被设定为一拍的音符。maimai大部分曲子开始之前会等间隔地响四下提示音，小部分曲目由于本身拍号不同，提示音数量也不同（如由削除作曲的著名上位曲7thSense就是一首7/4拍的歌，提示音将响7次），两个提示音间隔的时间即为这首曲子一拍的时间。&lt;/p&gt;
 &lt;h3 id=&#34;练习注意&#34;&gt;&lt;strong&gt;练习注意&lt;/strong&gt;&lt;/h3&gt;
 &lt;h4 id=&#34;站位&#34;&gt;站位&lt;/h4&gt;
@@ -1238,7 +1228,7 @@ img {
     &lt;td class=&#34;tg-9wq8&#34; rowspan=&#34;2&#34; style=&#34;width:30%&#34;&gt;niconico＆VOCALOID&lt;/td&gt;
     &lt;td class=&#34;tg-9wq8&#34; style=&#34;width:15%&#34;&gt;&lt;img src=&#34;st.png&#34;&gt;&lt;/td&gt;
     &lt;td class=&#34;tg-9wq8&#34; rowspan=&#34;2&#34; style=&#34;width:15%&#34;&gt;&lt;img src=&#34;wangxiang.png&#34;&gt;&lt;/td&gt;
-    &lt;td class=&#34;tg-9wq8&#34; rowspan=&#34;2&#34; style=&#34;width:60%&#34;&gt;妄想感傷代償連盟&lt;/td&gt;
+    &lt;td class=&#34;tg-9wq8&#34; rowspan=&#34;2&#34; style=&#34;width:40%&#34;&gt;妄想感傷代償連盟&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td class=&#34;tg-9wq8&#34;&gt;MAS 10&lt;/td&gt;
@@ -1265,7 +1255,7 @@ img {
     &lt;td class=&#34;tg-9wq8&#34; rowspan=&#34;2&#34;&gt;东方Project&lt;/td&gt;
     &lt;td class=&#34;tg-9wq8&#34;&gt;&lt;img src=&#34;dx.png&#34;&gt;&lt;/td&gt;
     &lt;td class=&#34;tg-9wq8&#34; rowspan=&#34;2&#34;&gt;&lt;img src=&#34;warning.png&#34;&gt;&lt;/td&gt;
-    &lt;td class=&#34;tg-9wq8&#34; rowspan=&#34;2&#34;&gt;WARNING×WARNING×WARNING&lt;/td&gt;
+    &lt;td class=&#34;tg-9wq8&#34; rowspan=&#34;2&#34;&gt;WARNING × WARNING × WARNING&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td class=&#34;tg-9wq8&#34;&gt;MAS 11+&lt;/td&gt;
