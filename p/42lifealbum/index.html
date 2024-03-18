@@ -308,8 +308,8 @@
     
     <header class="article-category">
         
-            <a href="/categories/%E9%9F%B3%E4%B9%90/" >
-                音乐
+            <a href="/categories/%E9%9F%B3%E4%B9%90/" style="background-color: #2a9d8f; color: #fff;">
+                游戏
             </a>
         
     </header>
@@ -645,8 +645,24 @@ Hiroyuki Arakawa的这首是巅峰中的巅峰<br>
   <figcaption></figcaption>
 </figure>
 <article-content style="color:#303030">
-    <meting-js server="netease" type="song" id="2068956580" preload="none"></meting-js>
-</article-content>
+    <link rel="stylesheet" href="APlayer.min.css">
+    <div id="aplayer3"></div>
+    <script src="APlayer.min.js"></script>
+    <script>
+    const ap3 = new APlayer({
+        container: document.getElementById('aplayer3'),
+        preload: 'none',
+        lrcType: 3,
+        audio: [{
+            name: '少女レイ',
+            artist: 'みきとP',
+            url: 'music/15. 少女レイ -FUMIKIRI ver.-.mp3',
+            cover: 'media/shoujorei.jpg',
+            lrc: 'music/少女レイ - みきとP.lrc'
+        }]
+    });
+    </script>
+    </article-content>
 <ul>
 <li>流派：Rock / Vocaloid</li>
 <li>曲目：少女レイ - みきとP</li>
@@ -953,8 +969,24 @@ Hiroyuki Arakawa的这首是巅峰中的巅峰<br>
   <figcaption></figcaption>
 </figure>
 <article-content style="color:#303030">
-    <meting-js server="netease" type="song" id="1859064982" preload="none"></meting-js>
-</article-content>
+    <link rel="stylesheet" href="APlayer.min.css">
+    <div id="aplayer4"></div>
+    <script src="APlayer.min.js"></script>
+    <script>
+    const ap4 = new APlayer({
+        container: document.getElementById('aplayer4'),
+        preload: 'none',
+        lrcType: 3,
+        audio: [{
+            name: 'ウラノミト',
+            artist: '月ノ美兎',
+            url: 'music/35. ウラノミト.mp3',
+            cover: 'media/ウラノミト.jpg',
+            lrc: 'music/ウラノミト - 月ノ美兎.lrc'
+        }]
+    });
+    </script>
+    </article-content>
 <ul>
 <li>流派：Electronic</li>
 <li>曲目：ウラノミト - 月ノ美兎</li>
@@ -1012,8 +1044,24 @@ Hiroyuki Arakawa的这首是巅峰中的巅峰<br>
   <figcaption></figcaption>
 </figure>
 <article-content style="color:#303030">
-    <meting-js server="netease" type="song" id="1327701988" preload="none"></meting-js>
-</article-content>
+    <link rel="stylesheet" href="APlayer.min.css">
+    <div id="aplayer5"></div>
+    <script src="APlayer.min.js"></script>
+    <script>
+    const ap5 = new APlayer({
+        container: document.getElementById('aplayer5'),
+        preload: 'none',
+        lrcType: 3,
+        audio: [{
+            name: 'おかえりさよなら',
+            artist: 'yume',
+            url: 'music/39. おかえりさよなら.mp3',
+            cover: 'media/yume.png',
+            lrc: 'music/おかえりさよなら - Maison book girl.lrc'
+        }]
+    });
+    </script>
+    </article-content>
 <ul>
 <li>流派：Alternative Rock</li>
 <li>曲目：おかえりさよなら - Maison book girl</li>
@@ -1026,11 +1074,43 @@ Hiroyuki Arakawa的这首是巅峰中的巅峰<br>
   <figcaption></figcaption>
 </figure>
 <article-content style="color:#303030">
-    <meting-js server="netease" type="song" id="1451198105" preload="none"></meting-js>
-</article-content>
+    <link rel="stylesheet" href="APlayer.min.css">
+    <div id="aplayer6"></div>
+    <script src="APlayer.min.js"></script>
+    <script>
+    const ap6 = new APlayer({
+        container: document.getElementById('aplayer6'),
+        preload: 'none',
+        lrcType: 3,
+        audio: [{
+            name: '너로피어오라(Flowering)',
+            artist: '달의하루',
+            url: 'music/40. 달의하루 - 너로피어오라(Flowering).mp3',
+            cover: 'media/Flowering.png',
+            lrc: 'music/너로피어오라(Flowering) - 달의하루.lrc'
+        }]
+    });
+    </script>
+    </article-content>
 <article-content style="color:#303030">
-    <meting-js server="netease" type="song" id="1451198107" preload="none"></meting-js>
-</article-content>
+    <link rel="stylesheet" href="APlayer.min.css">
+    <div id="aplayer7"></div>
+    <script src="APlayer.min.js"></script>
+    <script>
+    const ap7 = new APlayer({
+        container: document.getElementById('aplayer7'),
+        preload: 'none',
+        lrcType: 3,
+        audio: [{
+            name: '염라(Karma)',
+            artist: '달의하루',
+            url: 'music/40-1. 달의하루 - 염라(Karma).mp3',
+            cover: 'media/karma.jpg',
+            lrc: 'music/염라(Karma) - 달의하루.lrc'
+        }]
+    });
+    </script>
+    </article-content>
 <ul>
 <li>流派：Rock</li>
 </ul>
