@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Markdown语法写作尝试 .article-content { color: #000; } 这是第一段。 这是第二段。（空白行） 这是第一行。 这是第二行。（上一行行尾加&amp;lt;br&amp;gt;） 斜体尝试'>
-<title>Markdown语法写作尝试</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='对于一个正弦波，先不考虑传播、只考虑形状，则只需要确定振幅 $A$ 和波长 $\lambda$ 就可以确定其形状。此时它的解析式不妨设为： $$ y=A\sin\frac{2\pi }{\lambda }x $$ 它的图像的一个周期如'>
+<title>驻波</title>
 
-<link rel='canonical' href='https://carmilk.moe/p/test-markdown/'>
+<link rel='canonical' href='https://carmilk.moe/p/standingwave/'>
 
-<link rel="stylesheet" href="/scss/style.min.dc52b361ef408fa581987e9a508265613ef031bbae0e7c06f6c0646f59da5f01.css"><meta property='og:title' content='Markdown语法写作尝试'>
-<meta property='og:description' content='Markdown语法写作尝试 .article-content { color: #000; } 这是第一段。 这是第二段。（空白行） 这是第一行。 这是第二行。（上一行行尾加&amp;lt;br&amp;gt;） 斜体尝试'>
-<meta property='og:url' content='https://carmilk.moe/p/test-markdown/'>
+<link rel="stylesheet" href="/scss/style.min.dc52b361ef408fa581987e9a508265613ef031bbae0e7c06f6c0646f59da5f01.css"><meta property='og:title' content='驻波'>
+<meta property='og:description' content='对于一个正弦波，先不考虑传播、只考虑形状，则只需要确定振幅 $A$ 和波长 $\lambda$ 就可以确定其形状。此时它的解析式不妨设为： $$ y=A\sin\frac{2\pi }{\lambda }x $$ 它的图像的一个周期如'>
+<meta property='og:url' content='https://carmilk.moe/p/standingwave/'>
 <meta property='og:site_name' content='车奶研究室'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-02-18T00:20:44&#43;08:00'/><meta property='article:modified_time' content='2024-02-18T00:20:44&#43;08:00'/><meta property='og:image' content='https://carmilk.moe/p/test-markdown/halfsky.jpg' />
-<meta name="twitter:title" content="Markdown语法写作尝试">
-<meta name="twitter:description" content="Markdown语法写作尝试 .article-content { color: #000; } 这是第一段。 这是第二段。（空白行） 这是第一行。 这是第二行。（上一行行尾加&amp;lt;br&amp;gt;） 斜体尝试"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://carmilk.moe/p/test-markdown/halfsky.jpg' /><script
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-03-25T17:41:28&#43;08:00'/><meta property='article:modified_time' content='2024-03-25T17:41:28&#43;08:00'/>
+<meta name="twitter:title" content="驻波">
+<meta name="twitter:description" content="对于一个正弦波，先不考虑传播、只考虑形状，则只需要确定振幅 $A$ 和波长 $\lambda$ 就可以确定其形状。此时它的解析式不妨设为： $$ y=A\sin\frac{2\pi }{\lambda }x $$ 它的图像的一个周期如"><script
     src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
     async
 ></script>
@@ -23,7 +22,10 @@
  
 <script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js"></script>
 
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
     </head>
     <body class="
     article-page
@@ -216,71 +218,18 @@
     </ol>
 </aside>
 
-    <aside class="sidebar right-sidebar sticky">
-        
-            
-                
-    <section class="widget archives">
-        <div class="widget-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <line x1="5" y1="9" x2="19" y2="9" />
-  <line x1="5" y1="15" x2="19" y2="15" />
-  <line x1="11" y1="4" x2="7" y2="20" />
-  <line x1="17" y1="4" x2="13" y2="20" />
-</svg>
-
-
-
-        </div>
-        <h2 class="widget-title section-title">目录</h2>
-        
-        <div class="widget--toc">
-            <nav id="TableOfContents">
-  <ol>
-    <li><a href="#引用br">引用：<br></a></li>
-    <li><a href="#列表br">列表：<br></a></li>
-    <li><a href="#代码br">代码：<br></a></li>
-    <li><a href="#分割线">分割线：</a></li>
-    <li><a href="#超链接br">超链接：<br></a></li>
-    <li><a href="#引用链接br">引用链接：<br></a></li>
-    <li><a href="#引用图片br">引用图片：<br></a></li>
-    <li><a href="#转义字符br">转义字符：<br></a></li>
-    <li><a href="#表格br">表格：<br></a></li>
-    <li><a href="#任务列表br">任务列表：<br></a></li>
-    <li><a href="#使用emojibr">使用emoji：<br></a></li>
-  </ol>
-</nav>
-        </div>
-    </section>
-
-            
-        
-    </aside>
-
+    
 
             <main class="main full-width">
-    <article class="has-image main-article">
+    <article class="main-article">
     <header class="article-header">
-        <div class="article-image">
-            <a href="/p/test-markdown/">
-                <img src="/p/test-markdown/halfsky_hu70fc5759de8694916d83defd7551c700_272816_800x0_resize_q75_box.jpg"
-                        srcset="/p/test-markdown/halfsky_hu70fc5759de8694916d83defd7551c700_272816_800x0_resize_q75_box.jpg 800w, /p/test-markdown/halfsky_hu70fc5759de8694916d83defd7551c700_272816_1600x0_resize_q75_box.jpg 1600w"
-                        width="800" 
-                        height="450" 
-                        loading="lazy"
-                        alt="Featured image of post Markdown语法写作尝试" />
-                
-            </a>
-        </div>
-    
 
     <div class="article-details">
     
     <header class="article-category">
         
-            <a href="/categories/%E6%B5%8B%E8%AF%95/" style="background-color: #2a9d8f; color: #fff;">
-                测试
+            <a href="/categories/%E4%B9%90%E7%90%86/" >
+                乐理
             </a>
         
     </header>
@@ -288,7 +237,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/test-markdown/">Markdown语法写作尝试</a>
+            <a href="/p/standingwave/">驻波</a>
         </h2>
     
         
@@ -310,7 +259,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2024-02-18</time>
+                <time class="article-time--published">2024-03-25</time>
             </div>
         
 
@@ -325,7 +274,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 2 分钟
+                    阅读时长: 4 分钟
                 </time>
             </div>
         
@@ -352,193 +301,87 @@
     <section class="article-content">
     
     
-    <h1 id="markdown语法写作尝试">Markdown语法写作尝试</h1>
-<p>.article-content {
-color: #000;
-}</p>
-<article-content style="color:#303030">
-<meting-js server="netease" type="playlist" id="769332917"></meting-js>
-</article-content>
-<article-content style="color:#303030">
-<link rel="stylesheet" href="APlayer.min.css">
-<div id="aplayer"></div>
-<script src="APlayer.min.js"></script>
-<script>
-const ap = new APlayer({
-    container: document.getElementById('aplayer'),
-    audio: [{
-        name: 'name',
-        artist: 'artist',
-        url: '35. ウラノミト.mp3',
-        cover: 'halfsky.jpg'
-    }]
-});
-</script>
-</article-content>
-<p>这是第一段。</p>
-<p>这是第二段。（空白行）</p>
-<p>这是第一行。<br>
-这是第二行。（上一行行尾加<code>&lt;br&gt;</code>）</p>
-<p>斜体尝试：<br>
-两侧各加一个星号<code>*</code>之后会 <em>变斜</em></p>
-<p>粗体尝试：<br>
-两侧各加两个星号<code>**</code>之后会 <strong>变粗</strong></p>
-<p>同时斜体和粗体：<br>
-<em><strong>两侧各加三个星号<code>***</code>。</strong></em></p>
-<p>删除线：<br>
-~~ 两侧各加两个英文波浪号<code>~</code>。~~</p>
-<h2 id="引用br">引用：<br></h2>
-<blockquote>
-<p>在前面加一个大于号“&gt;”，有多个段落则继续用前面的空白行方法。<br>分行也可以继续br</p>
-<blockquote>
-<p>想要像这样子嵌套引用，则在要嵌套的段落前面加两个大于号即<code>&gt;&gt;</code></p>
-</blockquote>
-<p>还挺简单的</p>
-</blockquote>
-<h2 id="列表br">列表：<br></h2>
-<p>有序列表：<br>数字接英文句点，空一格即可。只能从1开始，无论你写111111还是114514，出来都会是123456</p>
-<ol>
-<li>beatmania IIDX</li>
-<li>SOUND VOLTEX</li>
-<li>别开生面的自行车大战</li>
-<li>Yuta lmao</li>
-</ol>
-<p>无序列表：<br></p>
+    <p>对于一个正弦波，先不考虑传播、只考虑形状，则只需要确定振幅 $A$ 和波长 $\lambda$ 就可以确定其形状。此时它的解析式不妨设为：</p>
+<p>$$
+y=A\sin\frac{2\pi }{\lambda }x
+$$</p>
+<p>它的图像的一个周期如下图所示：</p>
+<figure>
+  <img src="desmos-graph.svg" style="width:30%" alt="graph">
+  <figcaption></figcaption>
+</figure>
+<p>现在开始考虑传播，让它向右以波速 $v$ 传播，得到：</p>
+<p>$$
+y_1=A\sin\frac{2\pi }{\lambda }(x-vt)
+$$</p>
+<p>即</p>
+<p>$$
+y_1=A\sin(\frac{2\pi }{\lambda }x-\omega t)
+$$</p>
+<p>定义 $k=\frac{2\pi }{\lambda }$ 为波数（一个周期内的波数），同时有 $v=\lambda f ，\omega =2\pi f$ ，则上式化简为：</p>
+<p>$$
+y_1=A\sin(kx-\omega t) \tag{1}
+$$</p>
+<p>同理，若向左以波速 $v$ 传播，方程为：</p>
+<p>$$
+y_2=A\sin(kx+\omega t) \tag{2}
+$$</p>
+<p>将这两个波的方程相加，即 $(1)+(2)$ ，由和差化积公式化简之后得：</p>
+<p>$$
+y_3=2A\sin kx\cos \omega t
+$$</p>
+<p>注意到当 $A$ 、$k$ 、$\omega$ 固定时，这个合成的波 $y_3$ ，由解析式可以看出它的一些特征：</p>
 <ul>
-<li>这就叫无序列表</li>
-<li>段落前面加一个破折号“-”并空格即可</li>
-<li>牛子。</li>
+<li>它随着时间 $t$ 周期性变化；</li>
+<li>任一时刻 $t$ ，它的图像都是一个正弦函数；</li>
+<li>零点固定，为：</li>
 </ul>
-<p>在列表中嵌套其它语法：</p>
+<p>$$
+kx=n_1\pi,n_1\in Z
+$$</p>
 <ul>
-<li>
-<p>这是第一段。</p>
-<p>这是第二段。第二段是在第一个序号里的，在第一段后用了空白行语法。区别是，在序号中嵌套时，需要在第二段的段落前加一个制表符（tab），或者四个空格。其它语法也是这样。</p>
-</li>
-<li>
-<p>嵌套引用：</p>
-<blockquote>
-<p>原神深渊，牢大鸡块</p>
-</blockquote>
-</li>
-<li>
-<p>嵌套列表：</p>
-<ol>
-<li>OK</li>
-<li>也可以在有序里面嵌无序</li>
-</ol>
-</li>
+<li>极值点（振幅最大点）横坐标也固定，为：</li>
 </ul>
-<h2 id="代码br">代码：<br></h2>
-<p>将单词变为代码，在两侧加上单反引号<code>like this</code>，输入<code>中文</code>也可以。<br>
-如果代码中已经有单反引号，<code>用双 `反引号` 就可以</code></p>
-<h2 id="分割线">分割线：</h2>
-<hr>
-<p>分割线单独一行，前后各留一行空白行。</p>
-<h2 id="超链接br">超链接：<br></h2>
-<p><a class="link" href="https://www.bilibili.com/video/BV1GJ411x7h7"  title="鼠标悬停显示的文字"
-     target="_blank" rel="noopener"
-    >英文中括号里打超链接名称，后面的英文括号里打url</a></p>
-<p>网址和邮箱地址（直接&lt;网址&gt;就好）：
-<a class="link" href="https://markdown.com.cn/basic-syntax/"  target="_blank" rel="noopener"
-    >https://markdown.com.cn/basic-syntax/</a></p>
-<p>超链接也可以用两个星号 <strong><a class="link" href="https://www.bilibili.com/video/BV1GJ411x7h7"  target="_blank" rel="noopener"
-    >加粗</a></strong> ，也可以用一个星号 <em><a class="link" href="https://www.bilibili.com/video/BV1GJ411x7h7"  target="_blank" rel="noopener"
-    >变斜</a></em> ，和前面一样。<br>
-若将链接表示为代码，则可以在方括号中打上单反引号。<br>
-<a class="link" href="https://www.bilibili.com/video/BV1GJ411x7h7"  target="_blank" rel="noopener"
-    ><code>则不呢热爆挖鼻</code></a></p>
-<h2 id="引用链接br">引用链接：<br></h2>
-<p>我想引用<a class="link" href="https://www.bilibili.com/video/BV1GJ411x7h7"  target="_blank" rel="noopener"
-    >这个网站</a>。</p>
-<p>如果不想让url带上超链接，在两侧加上单反引号<code>`</code>即可（其实就是把url变成代码）。<br>
-<code>https://www.bilibili.com/video/BV1GJ411x7h7</code></p>
-<h2 id="引用图片br">引用图片：<br></h2>
-<p>用感叹号（<code>!</code>）。<br>
-<img src="/p/test-markdown/halfsky.jpg"
-	width="1920"
-	height="1080"
-	srcset="/p/test-markdown/halfsky_hu70fc5759de8694916d83defd7551c700_272816_480x0_resize_q75_box.jpg 480w, /p/test-markdown/halfsky_hu70fc5759de8694916d83defd7551c700_272816_1024x0_resize_q75_box.jpg 1024w"
-	loading="lazy"
-	
-		alt="这是图片"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="177"
-		data-flex-basis="426px"
-	
-></p>
-<p>给图片添加链接：把整体语法用中括号括起来，后面再加个括号写链接。
-<a class="link" href="https://space.bilibili.com/108066847"  target="_blank" rel="noopener"
-    ><img src="/p/test-markdown/landepenpig.gif"
-	width="228"
-	height="228"
-	srcset="/p/test-markdown/landepenpig_hu5a9ebf8d73ba347c815ef339b40e8f78_452994_480x0_resize_box_1.gif 480w, /p/test-markdown/landepenpig_hu5a9ebf8d73ba347c815ef339b40e8f78_452994_1024x0_resize_box_1.gif 1024w"
-	loading="lazy"
-	
-		alt="这是群友"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="100"
-		data-flex-basis="240px"
-	
-></a></p>
-<h2 id="转义字符br">转义字符：<br></h2>
-<p>前面加反斜杠<code>\</code>就能显示出来
-&lt;br&gt; <br>
-&gt; <br>
-&gt; <br>
-&gt; <br></p>
-<h2 id="表格br">表格：<br></h2>
-<p>用管道符号<code>|</code>和三个或多个连字符（<code>---</code>）来构建标题。</p>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
-<th style="text-align:center">名称</th>
-<th style="text-align:center">原产国</th>
-<th style="text-align:center">瘦肉率</th>
-<th style="text-align:center">产崽数</th>
-<th style="text-align:center">饲料利用率</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">杜洛克猪</td>
-<td style="text-align:center">美国</td>
-<td style="text-align:center">&gt;62%</td>
-<td style="text-align:center">9</td>
-<td style="text-align:center">2.8</td>
-</tr>
-<tr>
-<td style="text-align:center">长白猪</td>
-<td style="text-align:center">丹麦</td>
-<td style="text-align:center">71.7%</td>
-<td style="text-align:center">12-14</td>
-<td style="text-align:center">2.68-3.38</td>
-</tr>
-</tbody>
-</table></div>
-<p>这样编辑很麻烦，可以试试<a class="link" href="https://www.tablesgenerator.com/markdown_tables"  target="_blank" rel="noopener"
-    >Markdown Tables Generator</a>，用图形化界面生成表格，然后将生成的Markdown代码粘贴进文本中。</p>
-<p>脚注<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>：<br></p>
-<h2 id="任务列表br">任务列表：<br></h2>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> ff</li>
-<li><input disabled="" type="checkbox"> dd</li>
-<li><input disabled="" type="checkbox"> gg</li>
-</ul>
-<h2 id="使用emojibr">使用emoji：<br></h2>
-<p>😆</p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>这是脚注1&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
+<p>$$
+kx=\frac{\pi }{2}+n_2\pi ,n_2\in Z
+$$</p>
+<p>它的图像形状符合这些分析，为下图中黑色的函数（正向的蓝色波与反向的红色波合成了黑色波）：</p>
+<figure>
+  <img src="Standing_wave_2.gif" style="width:50%" alt="graph">
+  <figcaption></figcaption>
+</figure>
+<p>平时我们见到的波都是行波（travelling wave），也就是波在传播，上图中红色和蓝色的即是行波。我们从上图中可以看到驻波没有传播，而是好像停留在了原地，所以才起名叫驻波（standing wave）。但驻波只是零点不动，其余地方一直在振动。行波随着波形的传递而传播能量，而驻波波形不传递，能量以动能和势能的形式交换存储，不会传播出去。</p>
+<p>由前面的分析可知，两个波长、振幅、波速相同的正弦波，按相反方向运动，那么这两个波会合成一个驻波。</p>
+<p>生活中这种驻波什么时候最常见？就是反射。波碰到不同介质（气&gt;固、液&gt;固等）时，发生反射。反射波与原波很容易合成驻波。</p>
+<p>假设一根两端固定的弦上有一个在传递的波动，碰到了弦的固定端，它的反射是这样的：</p>
+<figure>
+  <img src="hard.gif" style="width:30%" alt="graph">
+  <figcaption></figcaption>
+</figure>
+<p>在固定端，振动为零，反射波改变其上下，同时相位改变180度。</p>
+<p>一根弦上，如果一个质点偏离平衡位置，会在平衡位置上下作往复的简谐运动，并在运动的过程中，把这种扰动沿垂直于运动的两个方向传播出去（即向质点的两边传递横波）。如果在现实中拨动一根弦，拨动这个动作可以拆分为拉起-松开，拉起时，弦上不同位置的质点偏离平衡位置的距离不一样，产生的势能也不一样，每个点向两侧传递的波不一样，这些波碰到固定端又会产生反射波&hellip;&hellip;这无数个波，最终会合成怎样的波呢？</p>
+<p>驻波的零点称为波节（Node），物理意义上它是振动减弱点；驻波的振幅最大点的横坐标称为波腹（Antinode），物理意义上它是振动加强点。</p>
+<p>不同位置质点的振动可能产生不同的驻波模式，而相同的驻波模式（波节、波腹相同）会叠加从而加强，这些驻波模式以外的振动会逐渐减弱以至消散。</p>
+<p>两端固定的弦，满足两个固定端为波节的驻波能最终保留下来。设这两个固定端坐标为0和1，则分析可知，满足这两个固定端为波节的驻波模式如下图所示：</p>
+<figure>
+  <img src="Harmonic_partials_on_strings.svg" style="width:50%" alt="graph">
+  <figcaption></figcaption>
+</figure>
+<p>上图这样驻波模式，可以振动加强从而最终保留下来。即：当弦长 $L$ 确定时，弦上可以留下来的驻波的波长也是确定的，为：</p>
+<p>$$
+2L，L，\frac{2L}{3}，\frac{L}{2}，\frac{2L}{5}，\frac{L}{3}，\frac{2L}{7} \tag{3}&hellip;
+$$</p>
+<p>具体留下哪几种，不同种类的强度比例如何，和你拨动的位置、拉起的形状都有关，但可以确认的是，上图的第一类驻波模式（即波长为 $2L$ 的驻波），决定了你听到的音高，这类驻波模式称为“基频”（Fundamental frequency）。</p>
+<p>这些留下的驻波模式确定了波长 $\lambda$ ，弦的松紧程度、材质等确定了波速 $v$ 。我们都知道音高由频率决定，而</p>
+<p>$$
+f=\frac{v}{\lambda } \tag{4}
+$$</p>
+<p>同一根弦材质、松紧程度（波速）相同，而弦上存在着不同的驻波模式（波长），可知这根弦会发出多个不同的音高（频率），由 $(3)、(4)$ 可推导，这根弦上可以发出的不同音的频率之比为</p>
+<p>$$
+\frac{1}{2} ，\frac{1}{3} ，\frac{1}{4} &hellip;\frac{2}{3} ，\frac{2}{5} ，\frac{2}{7} &hellip;\frac{3}{4} ，\frac{3}{5} ，\frac{3}{7} &hellip;\frac{4}{5} ，\frac{4}{7} &hellip;\frac{5}{6} ，\frac{5}{7} &hellip;
+$$</p>
+<p>这些以不同频率共振的音，除了基频之外，称为“泛音”（Overtone）。频率为基频2倍的称为第一泛音，频率为基频3倍的称为第二泛音，以此类推。基频、第一泛音、第二泛音、第三泛音&hellip;依次排序，称为泛音列。泛音列中越靠近基频的音越容易被感知到。泛音列中有些频率关系的共振是很和谐、很容易被注意到的。或者说，正因为这些频率关系可在一根弦上共振，所以在两根弦上弹奏满足这些频率之比的两个音，听起来好像就听到了一个音一般和谐。</p>
+<p>东西方国家在历史上都不约而同地注意到了频率之比为 $1:2，2:3$ 的音的共振，发现它们极为和谐。之后音乐史上所有的音律发展，都与这有关。</p>
 
 </section>
 
@@ -561,6 +404,30 @@ const ap = new APlayer({
     </footer>
 
 
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"integrity="sha256-J&#43;iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s="crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"integrity="sha256-InsNdER1b2xUewP&#43;pKCUJpkhiqwHgqiPXDlIk7GzBu4="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI="crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.querySelector(`.article-content`), {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
     
 </article>
 

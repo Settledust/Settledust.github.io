@@ -7,7 +7,96 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>车奶研究室</copyright>
-        <lastBuildDate>Sun, 17 Mar 2024 11:32:17 +0800</lastBuildDate><atom:link href="https://carmilk.moe/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 25 Mar 2024 17:41:28 +0800</lastBuildDate><atom:link href="https://carmilk.moe/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>驻波</title>
+        <link>https://carmilk.moe/p/standingwave/</link>
+        <pubDate>Mon, 25 Mar 2024 17:41:28 +0800</pubDate>
+        
+        <guid>https://carmilk.moe/p/standingwave/</guid>
+        <description>&lt;p&gt;对于一个正弦波，先不考虑传播、只考虑形状，则只需要确定振幅 $A$ 和波长 $\lambda$ 就可以确定其形状。此时它的解析式不妨设为：&lt;/p&gt;
+&lt;p&gt;$$
+y=A\sin\frac{2\pi }{\lambda }x
+$$&lt;/p&gt;
+&lt;p&gt;它的图像的一个周期如下图所示：&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;desmos-graph.svg&#34; style=&#34;width:30%&#34; alt=&#34;graph&#34;&gt;
+  &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;现在开始考虑传播，让它向右以波速 $v$ 传播，得到：&lt;/p&gt;
+&lt;p&gt;$$
+y_1=A\sin\frac{2\pi }{\lambda }(x-vt)
+$$&lt;/p&gt;
+&lt;p&gt;即&lt;/p&gt;
+&lt;p&gt;$$
+y_1=A\sin(\frac{2\pi }{\lambda }x-\omega t)
+$$&lt;/p&gt;
+&lt;p&gt;定义 $k=\frac{2\pi }{\lambda }$ 为波数（一个周期内的波数），同时有 $v=\lambda f ，\omega =2\pi f$ ，则上式化简为：&lt;/p&gt;
+&lt;p&gt;$$
+y_1=A\sin(kx-\omega t) \tag{1}
+$$&lt;/p&gt;
+&lt;p&gt;同理，若向左以波速 $v$ 传播，方程为：&lt;/p&gt;
+&lt;p&gt;$$
+y_2=A\sin(kx+\omega t) \tag{2}
+$$&lt;/p&gt;
+&lt;p&gt;将这两个波的方程相加，即 $(1)+(2)$ ，由和差化积公式化简之后得：&lt;/p&gt;
+&lt;p&gt;$$
+y_3=2A\sin kx\cos \omega t
+$$&lt;/p&gt;
+&lt;p&gt;注意到当 $A$ 、$k$ 、$\omega$ 固定时，这个合成的波 $y_3$ ，由解析式可以看出它的一些特征：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;它随着时间 $t$ 周期性变化；&lt;/li&gt;
+&lt;li&gt;任一时刻 $t$ ，它的图像都是一个正弦函数；&lt;/li&gt;
+&lt;li&gt;零点固定，为：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+kx=n_1\pi,n_1\in Z
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;极值点（振幅最大点）横坐标也固定，为：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+kx=\frac{\pi }{2}+n_2\pi ,n_2\in Z
+$$&lt;/p&gt;
+&lt;p&gt;它的图像形状符合这些分析，为下图中黑色的函数（正向的蓝色波与反向的红色波合成了黑色波）：&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;Standing_wave_2.gif&#34; style=&#34;width:50%&#34; alt=&#34;graph&#34;&gt;
+  &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;平时我们见到的波都是行波（travelling wave），也就是波在传播，上图中红色和蓝色的即是行波。我们从上图中可以看到驻波没有传播，而是好像停留在了原地，所以才起名叫驻波（standing wave）。但驻波只是零点不动，其余地方一直在振动。行波随着波形的传递而传播能量，而驻波波形不传递，能量以动能和势能的形式交换存储，不会传播出去。&lt;/p&gt;
+&lt;p&gt;由前面的分析可知，两个波长、振幅、波速相同的正弦波，按相反方向运动，那么这两个波会合成一个驻波。&lt;/p&gt;
+&lt;p&gt;生活中这种驻波什么时候最常见？就是反射。波碰到不同介质（气&amp;gt;固、液&amp;gt;固等）时，发生反射。反射波与原波很容易合成驻波。&lt;/p&gt;
+&lt;p&gt;假设一根两端固定的弦上有一个在传递的波动，碰到了弦的固定端，它的反射是这样的：&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;hard.gif&#34; style=&#34;width:30%&#34; alt=&#34;graph&#34;&gt;
+  &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;在固定端，振动为零，反射波改变其上下，同时相位改变180度。&lt;/p&gt;
+&lt;p&gt;一根弦上，如果一个质点偏离平衡位置，会在平衡位置上下作往复的简谐运动，并在运动的过程中，把这种扰动沿垂直于运动的两个方向传播出去（即向质点的两边传递横波）。如果在现实中拨动一根弦，拨动这个动作可以拆分为拉起-松开，拉起时，弦上不同位置的质点偏离平衡位置的距离不一样，产生的势能也不一样，每个点向两侧传递的波不一样，这些波碰到固定端又会产生反射波&amp;hellip;&amp;hellip;这无数个波，最终会合成怎样的波呢？&lt;/p&gt;
+&lt;p&gt;驻波的零点称为波节（Node），物理意义上它是振动减弱点；驻波的振幅最大点的横坐标称为波腹（Antinode），物理意义上它是振动加强点。&lt;/p&gt;
+&lt;p&gt;不同位置质点的振动可能产生不同的驻波模式，而相同的驻波模式（波节、波腹相同）会叠加从而加强，这些驻波模式以外的振动会逐渐减弱以至消散。&lt;/p&gt;
+&lt;p&gt;两端固定的弦，满足两个固定端为波节的驻波能最终保留下来。设这两个固定端坐标为0和1，则分析可知，满足这两个固定端为波节的驻波模式如下图所示：&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;Harmonic_partials_on_strings.svg&#34; style=&#34;width:50%&#34; alt=&#34;graph&#34;&gt;
+  &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;上图这样驻波模式，可以振动加强从而最终保留下来。即：当弦长 $L$ 确定时，弦上可以留下来的驻波的波长也是确定的，为：&lt;/p&gt;
+&lt;p&gt;$$
+2L，L，\frac{2L}{3}，\frac{L}{2}，\frac{2L}{5}，\frac{L}{3}，\frac{2L}{7} \tag{3}&amp;hellip;
+$$&lt;/p&gt;
+&lt;p&gt;具体留下哪几种，不同种类的强度比例如何，和你拨动的位置、拉起的形状都有关，但可以确认的是，上图的第一类驻波模式（即波长为 $2L$ 的驻波），决定了你听到的音高，这类驻波模式称为“基频”（Fundamental frequency）。&lt;/p&gt;
+&lt;p&gt;这些留下的驻波模式确定了波长 $\lambda$ ，弦的松紧程度、材质等确定了波速 $v$ 。我们都知道音高由频率决定，而&lt;/p&gt;
+&lt;p&gt;$$
+f=\frac{v}{\lambda } \tag{4}
+$$&lt;/p&gt;
+&lt;p&gt;同一根弦材质、松紧程度（波速）相同，而弦上存在着不同的驻波模式（波长），可知这根弦会发出多个不同的音高（频率），由 $(3)、(4)$ 可推导，这根弦上可以发出的不同音的频率之比为&lt;/p&gt;
+&lt;p&gt;$$
+\frac{1}{2} ，\frac{1}{3} ，\frac{1}{4} &amp;hellip;\frac{2}{3} ，\frac{2}{5} ，\frac{2}{7} &amp;hellip;\frac{3}{4} ，\frac{3}{5} ，\frac{3}{7} &amp;hellip;\frac{4}{5} ，\frac{4}{7} &amp;hellip;\frac{5}{6} ，\frac{5}{7} &amp;hellip;
+$$&lt;/p&gt;
+&lt;p&gt;这些以不同频率共振的音，除了基频之外，称为“泛音”（Overtone）。频率为基频2倍的称为第一泛音，频率为基频3倍的称为第二泛音，以此类推。基频、第一泛音、第二泛音、第三泛音&amp;hellip;依次排序，称为泛音列。泛音列中越靠近基频的音越容易被感知到。泛音列中有些频率关系的共振是很和谐、很容易被注意到的。或者说，正因为这些频率关系可在一根弦上共振，所以在两根弦上弹奏满足这些频率之比的两个音，听起来好像就听到了一个音一般和谐。&lt;/p&gt;
+&lt;p&gt;东西方国家在历史上都不约而同地注意到了频率之比为 $1:2，2:3$ 的音的共振，发现它们极为和谐。之后音乐史上所有的音律发展，都与这有关。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>私を構成する42枚</title>
         <link>https://carmilk.moe/p/42lifealbum/</link>
         <pubDate>Sun, 17 Mar 2024 11:32:17 +0800</pubDate>
